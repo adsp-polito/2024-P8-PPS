@@ -1,0 +1,630 @@
+model: all-distilroberta-v1-string-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.96       222
+           1       0.85      0.72      0.78        47
+
+    accuracy                           0.93       269
+   macro avg       0.90      0.85      0.87       269
+weighted avg       0.93      0.93      0.93       269
+
+model accuracy: 0.9294
+classification time: 1.01 seconds
+--------------------------------------------------
+model: all-distilroberta-v1-vector-sum
+report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97       222
+           1       0.90      0.81      0.85        47
+
+    accuracy                           0.95       269
+   macro avg       0.93      0.90      0.91       269
+weighted avg       0.95      0.95      0.95       269
+
+model accuracy: 0.9517
+classification time: 0.80 seconds
+--------------------------------------------------
+model: all-distilroberta-v1-vector-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97       222
+           1       0.89      0.83      0.86        47
+
+    accuracy                           0.95       269
+   macro avg       0.93      0.90      0.91       269
+weighted avg       0.95      0.95      0.95       269
+
+model accuracy: 0.9517
+classification time: 0.92 seconds
+--------------------------------------------------
+model: all-distilroberta-v1-vector-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97       222
+           1       0.90      0.81      0.85        47
+
+    accuracy                           0.95       269
+   macro avg       0.93      0.90      0.91       269
+weighted avg       0.95      0.95      0.95       269
+
+model accuracy: 0.9517
+classification time: 0.77 seconds
+--------------------------------------------------
+model: all-distilroberta-v1-vector-weighted-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.97       222
+           1       0.90      0.77      0.83        47
+
+    accuracy                           0.94       269
+   macro avg       0.93      0.87      0.90       269
+weighted avg       0.94      0.94      0.94       269
+
+model accuracy: 0.9442
+classification time: 0.80 seconds
+--------------------------------------------------
+model: all-mpnet-base-v2-string-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.98       222
+           1       0.93      0.89      0.91        47
+
+    accuracy                           0.97       269
+   macro avg       0.96      0.94      0.95       269
+weighted avg       0.97      0.97      0.97       269
+
+model accuracy: 0.9703
+classification time: 1.06 seconds
+--------------------------------------------------
+model: all-mpnet-base-v2-vector-sum
+report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98       222
+           1       0.95      0.87      0.91        47
+
+    accuracy                           0.97       269
+   macro avg       0.96      0.93      0.95       269
+weighted avg       0.97      0.97      0.97       269
+
+model accuracy: 0.9703
+classification time: 1.60 seconds
+--------------------------------------------------
+model: all-mpnet-base-v2-vector-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       222
+           1       0.94      0.94      0.94        47
+
+    accuracy                           0.98       269
+   macro avg       0.96      0.96      0.96       269
+weighted avg       0.98      0.98      0.98       269
+
+model accuracy: 0.9777
+classification time: 2.81 seconds
+--------------------------------------------------
+model: all-mpnet-base-v2-vector-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98       222
+           1       0.95      0.87      0.91        47
+
+    accuracy                           0.97       269
+   macro avg       0.96      0.93      0.95       269
+weighted avg       0.97      0.97      0.97       269
+
+model accuracy: 0.9703
+classification time: 1.04 seconds
+--------------------------------------------------
+model: all-mpnet-base-v2-vector-weighted-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98       222
+           1       0.95      0.87      0.91        47
+
+    accuracy                           0.97       269
+   macro avg       0.96      0.93      0.95       269
+weighted avg       0.97      0.97      0.97       269
+
+model accuracy: 0.9703
+classification time: 1.03 seconds
+--------------------------------------------------
+model: all-MiniLM-L6-v2-string-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.96      0.97       222
+           1       0.82      0.89      0.86        47
+
+    accuracy                           0.95       269
+   macro avg       0.90      0.93      0.91       269
+weighted avg       0.95      0.95      0.95       269
+
+model accuracy: 0.9480
+classification time: 0.57 seconds
+--------------------------------------------------
+model: all-MiniLM-L6-v2-vector-sum
+report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.99      0.98       222
+           1       0.93      0.83      0.88        47
+
+    accuracy                           0.96       269
+   macro avg       0.95      0.91      0.93       269
+weighted avg       0.96      0.96      0.96       269
+
+model accuracy: 0.9591
+classification time: 0.58 seconds
+--------------------------------------------------
+model: all-MiniLM-L6-v2-vector-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98       222
+           1       0.95      0.85      0.90        47
+
+    accuracy                           0.97       269
+   macro avg       0.96      0.92      0.94       269
+weighted avg       0.97      0.97      0.97       269
+
+model accuracy: 0.9665
+classification time: 0.77 seconds
+--------------------------------------------------
+model: all-MiniLM-L6-v2-vector-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.99      0.98       222
+           1       0.93      0.83      0.88        47
+
+    accuracy                           0.96       269
+   macro avg       0.95      0.91      0.93       269
+weighted avg       0.96      0.96      0.96       269
+
+model accuracy: 0.9591
+classification time: 0.57 seconds
+--------------------------------------------------
+model: all-MiniLM-L6-v2-vector-weighted-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97       222
+           1       0.91      0.83      0.87        47
+
+    accuracy                           0.96       269
+   macro avg       0.94      0.91      0.92       269
+weighted avg       0.95      0.96      0.95       269
+
+model accuracy: 0.9554
+classification time: 0.58 seconds
+--------------------------------------------------
+model: S-PubMedBert-MS-MARCO-string-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98       222
+           1       0.95      0.87      0.91        47
+
+    accuracy                           0.97       269
+   macro avg       0.96      0.93      0.95       269
+weighted avg       0.97      0.97      0.97       269
+
+model accuracy: 0.9703
+classification time: 0.74 seconds
+--------------------------------------------------
+model: S-PubMedBert-MS-MARCO-vector-sum
+report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99       222
+           1       0.96      0.91      0.93        47
+
+    accuracy                           0.98       269
+   macro avg       0.97      0.95      0.96       269
+weighted avg       0.98      0.98      0.98       269
+
+model accuracy: 0.9777
+classification time: 0.74 seconds
+--------------------------------------------------
+model: S-PubMedBert-MS-MARCO-vector-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       222
+           1       0.96      0.94      0.95        47
+
+    accuracy                           0.98       269
+   macro avg       0.97      0.96      0.97       269
+weighted avg       0.98      0.98      0.98       269
+
+model accuracy: 0.9814
+classification time: 0.75 seconds
+--------------------------------------------------
+model: S-PubMedBert-MS-MARCO-vector-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99       222
+           1       0.96      0.91      0.93        47
+
+    accuracy                           0.98       269
+   macro avg       0.97      0.95      0.96       269
+weighted avg       0.98      0.98      0.98       269
+
+model accuracy: 0.9777
+classification time: 0.80 seconds
+--------------------------------------------------
+model: S-PubMedBert-MS-MARCO-vector-weighted-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.98       222
+           1       0.95      0.89      0.92        47
+
+    accuracy                           0.97       269
+   macro avg       0.97      0.94      0.95       269
+weighted avg       0.97      0.97      0.97       269
+
+model accuracy: 0.9740
+classification time: 0.75 seconds
+--------------------------------------------------
+model: pubmedbert-base-embeddings-string-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99       222
+           1       0.98      0.96      0.97        47
+
+    accuracy                           0.99       269
+   macro avg       0.98      0.98      0.98       269
+weighted avg       0.99      0.99      0.99       269
+
+model accuracy: 0.9888
+classification time: 0.74 seconds
+--------------------------------------------------
+model: pubmedbert-base-embeddings-vector-sum
+report:
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       222
+           1       0.98      0.89      0.93        47
+
+    accuracy                           0.98       269
+   macro avg       0.98      0.94      0.96       269
+weighted avg       0.98      0.98      0.98       269
+
+model accuracy: 0.9777
+classification time: 1.31 seconds
+--------------------------------------------------
+model: pubmedbert-base-embeddings-vector-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       222
+           1       0.96      0.96      0.96        47
+
+    accuracy                           0.99       269
+   macro avg       0.97      0.97      0.97       269
+weighted avg       0.99      0.99      0.99       269
+
+model accuracy: 0.9851
+classification time: 1.63 seconds
+--------------------------------------------------
+model: pubmedbert-base-embeddings-vector-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       222
+           1       0.98      0.89      0.93        47
+
+    accuracy                           0.98       269
+   macro avg       0.98      0.94      0.96       269
+weighted avg       0.98      0.98      0.98       269
+
+model accuracy: 0.9777
+classification time: 1.58 seconds
+--------------------------------------------------
+model: pubmedbert-base-embeddings-vector-weighted-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       222
+           1       0.98      0.89      0.93        47
+
+    accuracy                           0.98       269
+   macro avg       0.98      0.94      0.96       269
+weighted avg       0.98      0.98      0.98       269
+
+model accuracy: 0.9777
+classification time: 1.26 seconds
+--------------------------------------------------
+model: bert-base-uncased-mask-string-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.92      0.92       222
+           1       0.60      0.55      0.58        47
+
+    accuracy                           0.86       269
+   macro avg       0.76      0.74      0.75       269
+weighted avg       0.85      0.86      0.86       269
+
+model accuracy: 0.8587
+classification time: 1.13 seconds
+--------------------------------------------------
+model: bert-base-uncased-mask-vector-sum
+report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.96      0.94       222
+           1       0.79      0.64      0.71        47
+
+    accuracy                           0.91       269
+   macro avg       0.86      0.80      0.83       269
+weighted avg       0.90      0.91      0.90       269
+
+model accuracy: 0.9071
+classification time: 1.68 seconds
+--------------------------------------------------
+model: bert-base-uncased-mask-vector-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.95       222
+           1       0.84      0.68      0.75        47
+
+    accuracy                           0.92       269
+   macro avg       0.89      0.83      0.85       269
+weighted avg       0.92      0.92      0.92       269
+
+model accuracy: 0.9219
+classification time: 1.55 seconds
+--------------------------------------------------
+model: bert-base-uncased-mask-vector-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.96      0.94       222
+           1       0.79      0.64      0.71        47
+
+    accuracy                           0.91       269
+   macro avg       0.86      0.80      0.83       269
+weighted avg       0.90      0.91      0.90       269
+
+model accuracy: 0.9071
+classification time: 1.76 seconds
+--------------------------------------------------
+model: bert-base-uncased-mask-vector-weighted-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.98      0.94       222
+           1       0.86      0.53      0.66        47
+
+    accuracy                           0.90       269
+   macro avg       0.89      0.76      0.80       269
+weighted avg       0.90      0.90      0.89       269
+
+model accuracy: 0.9033
+classification time: 1.73 seconds
+--------------------------------------------------
+model: bert-base-uncased-raw-string-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.95      0.95       222
+           1       0.75      0.77      0.76        47
+
+    accuracy                           0.91       269
+   macro avg       0.85      0.86      0.85       269
+weighted avg       0.92      0.91      0.91       269
+
+model accuracy: 0.9145
+classification time: 0.83 seconds
+--------------------------------------------------
+model: bert-base-uncased-raw-vector-sum
+report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96       222
+           1       0.89      0.70      0.79        47
+
+    accuracy                           0.93       269
+   macro avg       0.92      0.84      0.87       269
+weighted avg       0.93      0.93      0.93       269
+
+model accuracy: 0.9331
+classification time: 0.83 seconds
+--------------------------------------------------
+model: bert-base-uncased-raw-vector-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96       222
+           1       0.89      0.70      0.79        47
+
+    accuracy                           0.93       269
+   macro avg       0.92      0.84      0.87       269
+weighted avg       0.93      0.93      0.93       269
+
+model accuracy: 0.9331
+classification time: 1.57 seconds
+--------------------------------------------------
+model: bert-base-uncased-raw-vector-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96       222
+           1       0.89      0.70      0.79        47
+
+    accuracy                           0.93       269
+   macro avg       0.92      0.84      0.87       269
+weighted avg       0.93      0.93      0.93       269
+
+model accuracy: 0.9331
+classification time: 1.91 seconds
+--------------------------------------------------
+model: bert-base-uncased-raw-vector-weighted-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.96       222
+           1       0.88      0.74      0.80        47
+
+    accuracy                           0.94       269
+   macro avg       0.91      0.86      0.88       269
+weighted avg       0.93      0.94      0.93       269
+
+model accuracy: 0.9368
+classification time: 1.78 seconds
+--------------------------------------------------
+model: bigbird-roberta-large-mask-string-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.98      0.91       222
+           1       0.69      0.23      0.35        47
+
+    accuracy                           0.85       269
+   macro avg       0.77      0.61      0.63       269
+weighted avg       0.83      0.85      0.82       269
+
+model accuracy: 0.8476
+classification time: 3.40 seconds
+--------------------------------------------------
+model: bigbird-roberta-large-mask-vector-sum
+report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.91      0.88       222
+           1       0.41      0.28      0.33        47
+
+    accuracy                           0.80       269
+   macro avg       0.63      0.60      0.61       269
+weighted avg       0.78      0.80      0.79       269
+
+model accuracy: 0.8030
+classification time: 2.25 seconds
+--------------------------------------------------
+model: bigbird-roberta-large-mask-vector-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.94      0.89       222
+           1       0.44      0.23      0.31        47
+
+    accuracy                           0.81       269
+   macro avg       0.65      0.59      0.60       269
+weighted avg       0.78      0.81      0.79       269
+
+model accuracy: 0.8141
+classification time: 3.61 seconds
+--------------------------------------------------
+model: bigbird-roberta-large-mask-vector-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.91      0.88       222
+           1       0.41      0.28      0.33        47
+
+    accuracy                           0.80       269
+   macro avg       0.63      0.60      0.61       269
+weighted avg       0.78      0.80      0.79       269
+
+model accuracy: 0.8030
+classification time: 3.14 seconds
+--------------------------------------------------
+model: bigbird-roberta-large-mask-vector-weighted-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.91      0.89       222
+           1       0.46      0.34      0.39        47
+
+    accuracy                           0.81       269
+   macro avg       0.66      0.63      0.64       269
+weighted avg       0.80      0.81      0.80       269
+
+model accuracy: 0.8141
+classification time: 4.42 seconds
+--------------------------------------------------
+model: bigbird-roberta-large-raw-string-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97       222
+           1       0.90      0.81      0.85        47
+
+    accuracy                           0.95       269
+   macro avg       0.93      0.90      0.91       269
+weighted avg       0.95      0.95      0.95       269
+
+model accuracy: 0.9517
+classification time: 0.95 seconds
+--------------------------------------------------
+model: bigbird-roberta-large-raw-vector-sum
+report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96       222
+           1       0.87      0.70      0.78        47
+
+    accuracy                           0.93       269
+   macro avg       0.90      0.84      0.87       269
+weighted avg       0.93      0.93      0.93       269
+
+model accuracy: 0.9294
+classification time: 0.96 seconds
+--------------------------------------------------
+model: bigbird-roberta-large-raw-vector-concatenation
+report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.99      0.97       222
+           1       0.93      0.79      0.85        47
+
+    accuracy                           0.95       269
+   macro avg       0.94      0.89      0.91       269
+weighted avg       0.95      0.95      0.95       269
+
+model accuracy: 0.9517
+classification time: 1.06 seconds
+--------------------------------------------------
+model: bigbird-roberta-large-raw-vector-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96       222
+           1       0.87      0.70      0.78        47
+
+    accuracy                           0.93       269
+   macro avg       0.90      0.84      0.87       269
+weighted avg       0.93      0.93      0.93       269
+
+model accuracy: 0.9294
+classification time: 0.98 seconds
+--------------------------------------------------
+model: bigbird-roberta-large-raw-vector-weighted-average
+report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.99      0.96       222
+           1       0.92      0.72      0.81        47
+
+    accuracy                           0.94       269
+   macro avg       0.93      0.85      0.89       269
+weighted avg       0.94      0.94      0.94       269
+
+model accuracy: 0.9405
+classification time: 0.96 seconds
+--------------------------------------------------
