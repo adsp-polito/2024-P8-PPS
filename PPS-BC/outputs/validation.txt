@@ -1,0 +1,495 @@
+model: all-distilroberta-v1-text-concatenation
+params: {'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.001}
+validation accuracy: 0.9403
+test accuracy: 0.9480
+macro precision: 0.9358
+macro recall: 0.8711
+macro f1-score: 0.8993
+weighted precision: 0.9470
+weighted recall: 0.9480
+weighted f1-score: 0.9459
+--------------------------------------------------
+model: all-distilroberta-v1-vector-sum
+params: {'hidden_layer_sizes': (64, 32), 'learning_rate_init': 0.01}
+validation accuracy: 0.9440
+test accuracy: 0.9331
+macro precision: 0.8799
+macro recall: 0.8799
+macro f1-score: 0.8799
+weighted precision: 0.9331
+weighted recall: 0.9331
+weighted f1-score: 0.9331
+--------------------------------------------------
+model: all-distilroberta-v1-vector-concatenation
+params: {'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.01}
+validation accuracy: 0.9515
+test accuracy: 0.9517
+macro precision: 0.9163
+macro recall: 0.9088
+macro f1-score: 0.9125
+weighted precision: 0.9513
+weighted recall: 0.9517
+weighted f1-score: 0.9515
+--------------------------------------------------
+model: all-distilroberta-v1-vector-average
+params: {'hidden_layer_sizes': (64, 32), 'learning_rate_init': 0.01}
+validation accuracy: 0.9440
+test accuracy: 0.9331
+macro precision: 0.8799
+macro recall: 0.8799
+macro f1-score: 0.8799
+weighted precision: 0.9331
+weighted recall: 0.9331
+weighted f1-score: 0.9331
+--------------------------------------------------
+model: all-distilroberta-v1-vector-weighted-average
+params: {'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.001}
+validation accuracy: 0.9440
+test accuracy: 0.9628
+macro precision: 0.9671
+macro recall: 0.8978
+macro f1-score: 0.9281
+weighted precision: 0.9632
+weighted recall: 0.9628
+weighted f1-score: 0.9613
+--------------------------------------------------
+model: all-mpnet-base-v2-text-concatenation
+params: {'hidden_layer_sizes': (100,), 'learning_rate_init': 0.0001}
+validation accuracy: 0.9590
+test accuracy: 0.9703
+macro precision: 0.9466
+macro recall: 0.9466
+macro f1-score: 0.9466
+weighted precision: 0.9703
+weighted recall: 0.9703
+weighted f1-score: 0.9703
+--------------------------------------------------
+model: all-mpnet-base-v2-vector-sum
+params: {'hidden_layer_sizes': (64, 32), 'learning_rate_init': 0.01}
+validation accuracy: 0.9515
+test accuracy: 0.9628
+macro precision: 0.9272
+macro recall: 0.9422
+macro f1-score: 0.9344
+weighted precision: 0.9636
+weighted recall: 0.9628
+weighted f1-score: 0.9631
+--------------------------------------------------
+model: all-mpnet-base-v2-vector-concatenation
+params: {'hidden_layer_sizes': (100,), 'learning_rate_init': 0.01}
+validation accuracy: 0.9627
+test accuracy: 0.9628
+macro precision: 0.9333
+macro recall: 0.9333
+macro f1-score: 0.9333
+weighted precision: 0.9628
+weighted recall: 0.9628
+weighted f1-score: 0.9628
+--------------------------------------------------
+model: all-mpnet-base-v2-vector-average
+params: {'hidden_layer_sizes': (64, 32), 'learning_rate_init': 0.01}
+validation accuracy: 0.9515
+test accuracy: 0.9628
+macro precision: 0.9272
+macro recall: 0.9422
+macro f1-score: 0.9344
+weighted precision: 0.9636
+weighted recall: 0.9628
+weighted f1-score: 0.9631
+--------------------------------------------------
+model: all-mpnet-base-v2-vector-weighted-average
+params: {'hidden_layer_sizes': (64, 32), 'learning_rate_init': 0.0001}
+validation accuracy: 0.9552
+test accuracy: 0.9517
+macro precision: 0.9229
+macro recall: 0.9000
+macro f1-score: 0.9109
+weighted precision: 0.9507
+weighted recall: 0.9517
+weighted f1-score: 0.9510
+--------------------------------------------------
+model: all-MiniLM-L6-v2-text-concatenation
+params: {'hidden_layer_sizes': (256, 128, 64), 'learning_rate_init': 0.0001}
+validation accuracy: 0.9403
+test accuracy: 0.9703
+macro precision: 0.9625
+macro recall: 0.9289
+macro f1-score: 0.9446
+weighted precision: 0.9699
+weighted recall: 0.9703
+weighted f1-score: 0.9697
+--------------------------------------------------
+model: all-MiniLM-L6-v2-vector-sum
+params: {'hidden_layer_sizes': (256, 128, 64), 'learning_rate_init': 0.0001}
+validation accuracy: 0.9440
+test accuracy: 0.9517
+macro precision: 0.9303
+macro recall: 0.8911
+macro f1-score: 0.9092
+weighted precision: 0.9505
+weighted recall: 0.9517
+weighted f1-score: 0.9505
+--------------------------------------------------
+model: all-MiniLM-L6-v2-vector-concatenation
+params: {'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.001}
+validation accuracy: 0.9478
+test accuracy: 0.9554
+macro precision: 0.9337
+macro recall: 0.9022
+macro f1-score: 0.9170
+weighted precision: 0.9545
+weighted recall: 0.9554
+weighted f1-score: 0.9546
+--------------------------------------------------
+model: all-MiniLM-L6-v2-vector-average
+params: {'hidden_layer_sizes': (256, 128, 64), 'learning_rate_init': 0.0001}
+validation accuracy: 0.9440
+test accuracy: 0.9517
+macro precision: 0.9303
+macro recall: 0.8911
+macro f1-score: 0.9092
+weighted precision: 0.9505
+weighted recall: 0.9517
+weighted f1-score: 0.9505
+--------------------------------------------------
+model: all-MiniLM-L6-v2-vector-weighted-average
+params: {'hidden_layer_sizes': (256, 128, 64), 'learning_rate_init': 0.0001}
+validation accuracy: 0.9440
+test accuracy: 0.9442
+macro precision: 0.9236
+macro recall: 0.8688
+macro f1-score: 0.8932
+weighted precision: 0.9427
+weighted recall: 0.9442
+weighted f1-score: 0.9423
+--------------------------------------------------
+model: S-PubMedBert-MS-MARCO-text-concatenation
+params: {'hidden_layer_sizes': (256, 128, 64), 'learning_rate_init': 0.001}
+validation accuracy: 0.9627
+test accuracy: 0.9591
+macro precision: 0.9298
+macro recall: 0.9222
+macro f1-score: 0.9260
+weighted precision: 0.9588
+weighted recall: 0.9591
+weighted f1-score: 0.9589
+--------------------------------------------------
+model: S-PubMedBert-MS-MARCO-vector-sum
+params: {'hidden_layer_sizes': (256, 128, 64), 'learning_rate_init': 0.001}
+validation accuracy: 0.9627
+test accuracy: 0.9628
+macro precision: 0.9333
+macro recall: 0.9333
+macro f1-score: 0.9333
+weighted precision: 0.9628
+weighted recall: 0.9628
+weighted f1-score: 0.9628
+--------------------------------------------------
+model: S-PubMedBert-MS-MARCO-vector-concatenation
+params: {'hidden_layer_sizes': (256, 128, 64), 'learning_rate_init': 0.01}
+validation accuracy: 0.9664
+test accuracy: 0.9628
+macro precision: 0.9218
+macro recall: 0.9510
+macro f1-score: 0.9355
+weighted precision: 0.9647
+weighted recall: 0.9628
+weighted f1-score: 0.9634
+--------------------------------------------------
+model: S-PubMedBert-MS-MARCO-vector-average
+params: {'hidden_layer_sizes': (256, 128, 64), 'learning_rate_init': 0.001}
+validation accuracy: 0.9627
+test accuracy: 0.9628
+macro precision: 0.9333
+macro recall: 0.9333
+macro f1-score: 0.9333
+weighted precision: 0.9628
+weighted recall: 0.9628
+weighted f1-score: 0.9628
+--------------------------------------------------
+model: S-PubMedBert-MS-MARCO-vector-weighted-average
+params: {'hidden_layer_sizes': (256, 128, 64), 'learning_rate_init': 0.001}
+validation accuracy: 0.9627
+test accuracy: 0.9628
+macro precision: 0.9333
+macro recall: 0.9333
+macro f1-score: 0.9333
+weighted precision: 0.9628
+weighted recall: 0.9628
+weighted f1-score: 0.9628
+--------------------------------------------------
+model: pubmedbert-base-embeddings-text-concatenation
+params: {'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.0001}
+validation accuracy: 0.9701
+test accuracy: 0.9740
+macro precision: 0.9570
+macro recall: 0.9489
+macro f1-score: 0.9529
+weighted precision: 0.9738
+weighted recall: 0.9740
+weighted f1-score: 0.9739
+--------------------------------------------------
+model: pubmedbert-base-embeddings-vector-sum
+params: {'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.001}
+validation accuracy: 0.9552
+test accuracy: 0.9851
+macro precision: 0.9817
+macro recall: 0.9644
+macro f1-score: 0.9728
+weighted precision: 0.9851
+weighted recall: 0.9851
+weighted f1-score: 0.9850
+--------------------------------------------------
+model: pubmedbert-base-embeddings-vector-concatenation
+params: {'hidden_layer_sizes': (256, 128, 64), 'learning_rate_init': 0.001}
+validation accuracy: 0.9664
+test accuracy: 0.9740
+macro precision: 0.9498
+macro recall: 0.9577
+macro f1-score: 0.9537
+weighted precision: 0.9743
+weighted recall: 0.9740
+weighted f1-score: 0.9741
+--------------------------------------------------
+model: pubmedbert-base-embeddings-vector-average
+params: {'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.001}
+validation accuracy: 0.9552
+test accuracy: 0.9851
+macro precision: 0.9817
+macro recall: 0.9644
+macro f1-score: 0.9728
+weighted precision: 0.9851
+weighted recall: 0.9851
+weighted f1-score: 0.9850
+--------------------------------------------------
+model: pubmedbert-base-embeddings-vector-weighted-average
+params: {'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.0001}
+validation accuracy: 0.9627
+test accuracy: 0.9851
+macro precision: 0.9817
+macro recall: 0.9644
+macro f1-score: 0.9728
+weighted precision: 0.9851
+weighted recall: 0.9851
+weighted f1-score: 0.9850
+--------------------------------------------------
+model: bert-base-uncased-mask-text-concatenation
+params: {'hidden_layer_sizes': (100,), 'learning_rate_init': 0.0001}
+validation accuracy: 0.9254
+test accuracy: 0.8922
+macro precision: 0.8451
+macro recall: 0.7311
+macro f1-score: 0.7702
+weighted precision: 0.8847
+weighted recall: 0.8922
+weighted f1-score: 0.8816
+--------------------------------------------------
+model: bert-base-uncased-mask-vector-sum
+params: {'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.001}
+validation accuracy: 0.9254
+test accuracy: 0.9033
+macro precision: 0.8612
+macro recall: 0.7644
+macro f1-score: 0.8008
+weighted precision: 0.8976
+weighted recall: 0.9033
+weighted f1-score: 0.8959
+--------------------------------------------------
+model: bert-base-uncased-mask-vector-concatenation
+params: {'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.0001}
+validation accuracy: 0.9254
+test accuracy: 0.9331
+macro precision: 0.9129
+macro recall: 0.8355
+macro f1-score: 0.8678
+weighted precision: 0.9311
+weighted recall: 0.9331
+weighted f1-score: 0.9296
+--------------------------------------------------
+model: bert-base-uncased-mask-vector-average
+params: {'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.001}
+validation accuracy: 0.9254
+test accuracy: 0.9033
+macro precision: 0.8612
+macro recall: 0.7644
+macro f1-score: 0.8008
+weighted precision: 0.8976
+weighted recall: 0.9033
+weighted f1-score: 0.8959
+--------------------------------------------------
+model: bert-base-uncased-mask-vector-weighted-average
+params: {'hidden_layer_sizes': (100,), 'learning_rate_init': 0.0001}
+validation accuracy: 0.9328
+test accuracy: 0.9219
+macro precision: 0.8716
+macro recall: 0.8377
+macro f1-score: 0.8533
+weighted precision: 0.9193
+weighted recall: 0.9219
+weighted f1-score: 0.9201
+--------------------------------------------------
+model: bert-base-uncased-raw-text-concatenation
+params: {'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.001}
+validation accuracy: 0.9328
+test accuracy: 0.9294
+macro precision: 0.9093
+macro recall: 0.8244
+macro f1-score: 0.8590
+weighted precision: 0.9272
+weighted recall: 0.9294
+weighted f1-score: 0.9253
+--------------------------------------------------
+model: bert-base-uncased-raw-vector-sum
+params: {'hidden_layer_sizes': (256, 128, 64), 'learning_rate_init': 0.0001}
+validation accuracy: 0.9403
+test accuracy: 0.9480
+macro precision: 0.9458
+macro recall: 0.8622
+macro f1-score: 0.8972
+weighted precision: 0.9477
+weighted recall: 0.9480
+weighted f1-score: 0.9453
+--------------------------------------------------
+model: bert-base-uncased-raw-vector-concatenation
+params: {'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.001}
+validation accuracy: 0.9478
+test accuracy: 0.9480
+macro precision: 0.9270
+macro recall: 0.8800
+macro f1-score: 0.9012
+weighted precision: 0.9466
+weighted recall: 0.9480
+weighted f1-score: 0.9464
+--------------------------------------------------
+model: bert-base-uncased-raw-vector-average
+params: {'hidden_layer_sizes': (256, 128, 64), 'learning_rate_init': 0.0001}
+validation accuracy: 0.9403
+test accuracy: 0.9480
+macro precision: 0.9458
+macro recall: 0.8622
+macro f1-score: 0.8972
+weighted precision: 0.9477
+weighted recall: 0.9480
+weighted f1-score: 0.9453
+--------------------------------------------------
+model: bert-base-uncased-raw-vector-weighted-average
+params: {'hidden_layer_sizes': (256, 128, 64), 'learning_rate_init': 0.0001}
+validation accuracy: 0.9515
+test accuracy: 0.9480
+macro precision: 0.9270
+macro recall: 0.8800
+macro f1-score: 0.9012
+weighted precision: 0.9466
+weighted recall: 0.9480
+weighted f1-score: 0.9464
+--------------------------------------------------
+model: bigbird-roberta-large-mask-text-concatenation
+params: {'hidden_layer_sizes': (256, 128, 64), 'learning_rate_init': 0.0001}
+validation accuracy: 0.8396
+test accuracy: 0.8625
+macro precision: 0.7974
+macro recall: 0.6333
+macro f1-score: 0.6674
+weighted precision: 0.8474
+weighted recall: 0.8625
+weighted f1-score: 0.8369
+--------------------------------------------------
+model: bigbird-roberta-large-mask-vector-sum
+params: {'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.01}
+validation accuracy: 0.8284
+test accuracy: 0.8327
+macro precision: 0.4164
+macro recall: 0.5000
+macro f1-score: 0.4544
+weighted precision: 0.6934
+weighted recall: 0.8327
+weighted f1-score: 0.7567
+--------------------------------------------------
+model: bigbird-roberta-large-mask-vector-concatenation
+params: {'hidden_layer_sizes': (256, 128, 64), 'learning_rate_init': 0.01}
+validation accuracy: 0.8246
+test accuracy: 0.8327
+macro precision: 0.4164
+macro recall: 0.5000
+macro f1-score: 0.4544
+weighted precision: 0.6934
+weighted recall: 0.8327
+weighted f1-score: 0.7567
+--------------------------------------------------
+model: bigbird-roberta-large-mask-vector-average
+params: {'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.01}
+validation accuracy: 0.8284
+test accuracy: 0.8327
+macro precision: 0.4164
+macro recall: 0.5000
+macro f1-score: 0.4544
+weighted precision: 0.6934
+weighted recall: 0.8327
+weighted f1-score: 0.7567
+--------------------------------------------------
+model: bigbird-roberta-large-mask-vector-weighted-average
+params: {'hidden_layer_sizes': (256, 128, 64), 'learning_rate_init': 0.01}
+validation accuracy: 0.8246
+test accuracy: 0.8327
+macro precision: 0.4164
+macro recall: 0.5000
+macro f1-score: 0.4544
+weighted precision: 0.6934
+weighted recall: 0.8327
+weighted f1-score: 0.7567
+--------------------------------------------------
+model: bigbird-roberta-large-raw-text-concatenation
+params: {'hidden_layer_sizes': (64, 32), 'learning_rate_init': 0.0001}
+validation accuracy: 0.9328
+test accuracy: 0.9517
+macro precision: 0.9389
+macro recall: 0.8822
+macro f1-score: 0.9074
+weighted precision: 0.9507
+weighted recall: 0.9517
+weighted f1-score: 0.9500
+--------------------------------------------------
+model: bigbird-roberta-large-raw-vector-sum
+params: {'hidden_layer_sizes': (64, 32), 'learning_rate_init': 0.0001}
+validation accuracy: 0.9179
+test accuracy: 0.9368
+macro precision: 0.9371
+macro recall: 0.8289
+macro f1-score: 0.8712
+weighted precision: 0.9368
+weighted recall: 0.9368
+weighted f1-score: 0.9324
+--------------------------------------------------
+model: bigbird-roberta-large-raw-vector-concatenation
+params: {'hidden_layer_sizes': (256, 128, 64), 'learning_rate_init': 0.001}
+validation accuracy: 0.9254
+test accuracy: 0.9331
+macro precision: 0.8970
+macro recall: 0.8533
+macro f1-score: 0.8730
+weighted precision: 0.9308
+weighted recall: 0.9331
+weighted f1-score: 0.9311
+--------------------------------------------------
+model: bigbird-roberta-large-raw-vector-average
+params: {'hidden_layer_sizes': (64, 32), 'learning_rate_init': 0.0001}
+validation accuracy: 0.9179
+test accuracy: 0.9368
+macro precision: 0.9371
+macro recall: 0.8289
+macro f1-score: 0.8712
+weighted precision: 0.9368
+weighted recall: 0.9368
+weighted f1-score: 0.9324
+--------------------------------------------------
+model: bigbird-roberta-large-raw-vector-weighted-average
+params: {'hidden_layer_sizes': (64, 32), 'learning_rate_init': 0.001}
+validation accuracy: 0.9254
+test accuracy: 0.9442
+macro precision: 0.9429
+macro recall: 0.8511
+macro f1-score: 0.8887
+weighted precision: 0.9441
+weighted recall: 0.9442
+weighted f1-score: 0.9410
+--------------------------------------------------
