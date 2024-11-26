@@ -1,0 +1,450 @@
+model: all-distilroberta-v1-text-concatenation
+accuracy: 0.9554
+macro precision: 0.9213
+macro recall: 0.9213
+macro f1-score: 0.9213
+weighted precision: 0.9554
+weighted recall: 0.9554
+weighted f1-score: 0.9554
+classification time: 00:02
+--------------------------------------------------
+model: all-distilroberta-v1-vector-sum
+accuracy: 0.9628
+macro precision: 0.9412
+macro recall: 0.9258
+macro f1-score: 0.9333
+weighted precision: 0.9623
+weighted recall: 0.9628
+weighted f1-score: 0.9625
+classification time: 00:00
+--------------------------------------------------
+model: all-distilroberta-v1-vector-concatenation
+accuracy: 0.9703
+macro precision: 0.9630
+macro recall: 0.9303
+macro f1-score: 0.9457
+weighted precision: 0.9699
+weighted recall: 0.9703
+weighted f1-score: 0.9697
+classification time: 00:02
+--------------------------------------------------
+model: all-distilroberta-v1-vector-average
+accuracy: 0.9628
+macro precision: 0.9412
+macro recall: 0.9258
+macro f1-score: 0.9333
+weighted precision: 0.9623
+weighted recall: 0.9628
+weighted f1-score: 0.9625
+classification time: 00:01
+--------------------------------------------------
+model: all-distilroberta-v1-vector-weighted-average
+accuracy: 0.9665
+macro precision: 0.9444
+macro recall: 0.9367
+macro f1-score: 0.9405
+weighted precision: 0.9663
+weighted recall: 0.9665
+weighted f1-score: 0.9664
+classification time: 00:01
+--------------------------------------------------
+model: all-mpnet-base-v2-text-concatenation
+accuracy: 0.9591
+macro precision: 0.9105
+macro recall: 0.9581
+macro f1-score: 0.9319
+weighted precision: 0.9633
+weighted recall: 0.9591
+weighted f1-score: 0.9602
+classification time: 00:00
+--------------------------------------------------
+model: all-mpnet-base-v2-vector-sum
+accuracy: 0.9554
+macro precision: 0.9158
+macro recall: 0.9300
+macro f1-score: 0.9227
+weighted precision: 0.9563
+weighted recall: 0.9554
+weighted f1-score: 0.9558
+classification time: 00:03
+--------------------------------------------------
+model: all-mpnet-base-v2-vector-concatenation
+accuracy: 0.9628
+macro precision: 0.9185
+macro recall: 0.9603
+macro f1-score: 0.9376
+weighted precision: 0.9661
+weighted recall: 0.9628
+weighted f1-score: 0.9637
+classification time: 00:00
+--------------------------------------------------
+model: all-mpnet-base-v2-vector-average
+accuracy: 0.9554
+macro precision: 0.9158
+macro recall: 0.9300
+macro f1-score: 0.9227
+weighted precision: 0.9563
+weighted recall: 0.9554
+weighted f1-score: 0.9558
+classification time: 00:02
+--------------------------------------------------
+model: all-mpnet-base-v2-vector-weighted-average
+accuracy: 0.9665
+macro precision: 0.9378
+macro recall: 0.9453
+macro f1-score: 0.9415
+weighted precision: 0.9669
+weighted recall: 0.9665
+weighted f1-score: 0.9667
+classification time: 00:02
+--------------------------------------------------
+model: all-MiniLM-L6-v2-text-concatenation
+accuracy: 0.9480
+macro precision: 0.9031
+macro recall: 0.9168
+macro f1-score: 0.9098
+weighted precision: 0.9490
+weighted recall: 0.9480
+weighted f1-score: 0.9484
+classification time: 00:01
+--------------------------------------------------
+model: all-MiniLM-L6-v2-vector-sum
+accuracy: 0.9591
+macro precision: 0.9311
+macro recall: 0.9236
+macro f1-score: 0.9273
+weighted precision: 0.9588
+weighted recall: 0.9591
+weighted f1-score: 0.9589
+classification time: 00:06
+--------------------------------------------------
+model: all-MiniLM-L6-v2-vector-concatenation
+accuracy: 0.9628
+macro precision: 0.9344
+macro recall: 0.9344
+macro f1-score: 0.9344
+weighted precision: 0.9628
+weighted recall: 0.9628
+weighted f1-score: 0.9628
+classification time: 00:00
+--------------------------------------------------
+model: all-MiniLM-L6-v2-vector-average
+accuracy: 0.9591
+macro precision: 0.9311
+macro recall: 0.9236
+macro f1-score: 0.9273
+weighted precision: 0.9588
+weighted recall: 0.9591
+weighted f1-score: 0.9589
+classification time: 00:03
+--------------------------------------------------
+model: all-MiniLM-L6-v2-vector-weighted-average
+accuracy: 0.9591
+macro precision: 0.9195
+macro recall: 0.9408
+macro f1-score: 0.9297
+weighted precision: 0.9605
+weighted recall: 0.9591
+weighted f1-score: 0.9596
+classification time: 00:00
+--------------------------------------------------
+model: S-PubMedBert-MS-MARCO-text-concatenation
+accuracy: 0.9517
+macro precision: 0.9120
+macro recall: 0.9191
+macro f1-score: 0.9155
+weighted precision: 0.9521
+weighted recall: 0.9517
+weighted f1-score: 0.9519
+classification time: 00:02
+--------------------------------------------------
+model: S-PubMedBert-MS-MARCO-vector-sum
+accuracy: 0.9628
+macro precision: 0.9232
+macro recall: 0.9517
+macro f1-score: 0.9366
+weighted precision: 0.9647
+weighted recall: 0.9628
+weighted f1-score: 0.9634
+classification time: 00:01
+--------------------------------------------------
+model: S-PubMedBert-MS-MARCO-vector-concatenation
+accuracy: 0.9665
+macro precision: 0.9320
+macro recall: 0.9539
+macro f1-score: 0.9425
+weighted precision: 0.9678
+weighted recall: 0.9665
+weighted f1-score: 0.9670
+classification time: 00:02
+--------------------------------------------------
+model: S-PubMedBert-MS-MARCO-vector-average
+accuracy: 0.9628
+macro precision: 0.9232
+macro recall: 0.9517
+macro f1-score: 0.9366
+weighted precision: 0.9647
+weighted recall: 0.9628
+weighted f1-score: 0.9634
+classification time: 00:03
+--------------------------------------------------
+model: S-PubMedBert-MS-MARCO-vector-weighted-average
+accuracy: 0.9628
+macro precision: 0.9232
+macro recall: 0.9517
+macro f1-score: 0.9366
+weighted precision: 0.9647
+weighted recall: 0.9628
+weighted f1-score: 0.9634
+classification time: 00:01
+--------------------------------------------------
+model: pubmedbert-base-embeddings-text-concatenation
+accuracy: 0.9665
+macro precision: 0.9268
+macro recall: 0.9626
+macro f1-score: 0.9434
+weighted precision: 0.9689
+weighted recall: 0.9665
+weighted f1-score: 0.9672
+classification time: 00:00
+--------------------------------------------------
+model: pubmedbert-base-embeddings-vector-sum
+accuracy: 0.9703
+macro precision: 0.9354
+macro recall: 0.9648
+macro f1-score: 0.9493
+weighted precision: 0.9719
+weighted recall: 0.9703
+weighted f1-score: 0.9707
+classification time: 00:02
+--------------------------------------------------
+model: pubmedbert-base-embeddings-vector-concatenation
+accuracy: 0.9665
+macro precision: 0.9320
+macro recall: 0.9539
+macro f1-score: 0.9425
+weighted precision: 0.9678
+weighted recall: 0.9665
+weighted f1-score: 0.9670
+classification time: 00:00
+--------------------------------------------------
+model: pubmedbert-base-embeddings-vector-average
+accuracy: 0.9703
+macro precision: 0.9354
+macro recall: 0.9648
+macro f1-score: 0.9493
+weighted precision: 0.9719
+weighted recall: 0.9703
+weighted f1-score: 0.9707
+classification time: 00:02
+--------------------------------------------------
+model: pubmedbert-base-embeddings-vector-weighted-average
+accuracy: 0.9740
+macro precision: 0.9444
+macro recall: 0.9671
+macro f1-score: 0.9553
+weighted precision: 0.9750
+weighted recall: 0.9740
+weighted f1-score: 0.9743
+classification time: 00:03
+--------------------------------------------------
+model: bert-base-uncased-mask-text-concatenation
+accuracy: 0.8922
+macro precision: 0.8047
+macro recall: 0.8401
+macro f1-score: 0.8205
+weighted precision: 0.8997
+weighted recall: 0.8922
+weighted f1-score: 0.8951
+classification time: 00:07
+--------------------------------------------------
+model: bert-base-uncased-mask-vector-sum
+accuracy: 0.9480
+macro precision: 0.9082
+macro recall: 0.9082
+macro f1-score: 0.9082
+weighted precision: 0.9480
+weighted recall: 0.9480
+weighted f1-score: 0.9480
+classification time: 00:05
+--------------------------------------------------
+model: bert-base-uncased-mask-vector-concatenation
+accuracy: 0.9071
+macro precision: 0.8452
+macro recall: 0.8145
+macro f1-score: 0.8286
+weighted precision: 0.9038
+weighted recall: 0.9071
+weighted f1-score: 0.9049
+classification time: 00:11
+--------------------------------------------------
+model: bert-base-uncased-mask-vector-average
+accuracy: 0.9480
+macro precision: 0.9082
+macro recall: 0.9082
+macro f1-score: 0.9082
+weighted precision: 0.9480
+weighted recall: 0.9480
+weighted f1-score: 0.9480
+classification time: 00:05
+--------------------------------------------------
+model: bert-base-uncased-mask-vector-weighted-average
+accuracy: 0.9405
+macro precision: 0.8863
+macro recall: 0.9124
+macro f1-score: 0.8986
+weighted precision: 0.9431
+weighted recall: 0.9405
+weighted f1-score: 0.9415
+classification time: 00:05
+--------------------------------------------------
+model: bert-base-uncased-raw-text-concatenation
+accuracy: 0.9331
+macro precision: 0.8820
+macro recall: 0.8820
+macro f1-score: 0.8820
+weighted precision: 0.9331
+weighted recall: 0.9331
+weighted f1-score: 0.9331
+classification time: 00:03
+--------------------------------------------------
+model: bert-base-uncased-raw-vector-sum
+accuracy: 0.9517
+macro precision: 0.9120
+macro recall: 0.9191
+macro f1-score: 0.9155
+weighted precision: 0.9521
+weighted recall: 0.9517
+weighted f1-score: 0.9519
+classification time: 00:00
+--------------------------------------------------
+model: bert-base-uncased-raw-vector-concatenation
+accuracy: 0.9628
+macro precision: 0.9412
+macro recall: 0.9258
+macro f1-score: 0.9333
+weighted precision: 0.9623
+weighted recall: 0.9628
+weighted f1-score: 0.9625
+classification time: 00:00
+--------------------------------------------------
+model: bert-base-uncased-raw-vector-average
+accuracy: 0.9517
+macro precision: 0.9120
+macro recall: 0.9191
+macro f1-score: 0.9155
+weighted precision: 0.9521
+weighted recall: 0.9517
+weighted f1-score: 0.9519
+classification time: 00:00
+--------------------------------------------------
+model: bert-base-uncased-raw-vector-weighted-average
+accuracy: 0.9442
+macro precision: 0.8945
+macro recall: 0.9146
+macro f1-score: 0.9041
+weighted precision: 0.9460
+weighted recall: 0.9442
+weighted f1-score: 0.9449
+classification time: 00:00
+--------------------------------------------------
+model: bigbird-roberta-large-mask-text-concatenation
+accuracy: 0.8290
+macro precision: 0.6777
+macro recall: 0.5863
+macro f1-score: 0.6028
+weighted precision: 0.7946
+weighted recall: 0.8290
+weighted f1-score: 0.8000
+classification time: 00:09
+--------------------------------------------------
+model: bigbird-roberta-large-mask-vector-sum
+accuracy: 0.8141
+macro precision: 0.6476
+macro recall: 0.6032
+macro f1-score: 0.6169
+weighted precision: 0.7886
+weighted recall: 0.8141
+weighted f1-score: 0.7978
+classification time: 00:02
+--------------------------------------------------
+model: bigbird-roberta-large-mask-vector-concatenation
+accuracy: 0.8216
+macro precision: 0.6739
+macro recall: 0.6422
+macro f1-score: 0.6547
+weighted precision: 0.8066
+weighted recall: 0.8216
+weighted f1-score: 0.8126
+classification time: 00:06
+--------------------------------------------------
+model: bigbird-roberta-large-mask-vector-average
+accuracy: 0.8141
+macro precision: 0.6476
+macro recall: 0.6032
+macro f1-score: 0.6169
+weighted precision: 0.7886
+weighted recall: 0.8141
+weighted f1-score: 0.7978
+classification time: 00:05
+--------------------------------------------------
+model: bigbird-roberta-large-mask-vector-weighted-average
+accuracy: 0.8253
+macro precision: 0.6478
+macro recall: 0.5409
+macro f1-score: 0.5389
+weighted precision: 0.7750
+weighted recall: 0.8253
+weighted f1-score: 0.7780
+classification time: 00:05
+--------------------------------------------------
+model: bigbird-roberta-large-raw-text-concatenation
+accuracy: 0.9331
+macro precision: 0.8869
+macro recall: 0.8734
+macro f1-score: 0.8799
+weighted precision: 0.9321
+weighted recall: 0.9331
+weighted f1-score: 0.9325
+classification time: 00:00
+--------------------------------------------------
+model: bigbird-roberta-large-raw-vector-sum
+accuracy: 0.9591
+macro precision: 0.9195
+macro recall: 0.9408
+macro f1-score: 0.9297
+weighted precision: 0.9605
+weighted recall: 0.9591
+weighted f1-score: 0.9596
+classification time: 00:05
+--------------------------------------------------
+model: bigbird-roberta-large-raw-vector-concatenation
+accuracy: 0.9442
+macro precision: 0.8905
+macro recall: 0.9232
+macro f1-score: 0.9057
+weighted precision: 0.9475
+weighted recall: 0.9442
+weighted f1-score: 0.9454
+classification time: 00:03
+--------------------------------------------------
+model: bigbird-roberta-large-raw-vector-average
+accuracy: 0.9591
+macro precision: 0.9195
+macro recall: 0.9408
+macro f1-score: 0.9297
+weighted precision: 0.9605
+weighted recall: 0.9591
+weighted f1-score: 0.9596
+classification time: 00:04
+--------------------------------------------------
+model: bigbird-roberta-large-raw-vector-weighted-average
+accuracy: 0.9294
+macro precision: 0.8696
+macro recall: 0.8884
+macro f1-score: 0.8786
+weighted precision: 0.9315
+weighted recall: 0.9294
+weighted f1-score: 0.9302
+classification time: 00:01
+--------------------------------------------------
