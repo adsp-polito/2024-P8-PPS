@@ -1,0 +1,2 @@
+Params,Accuracy,Macro Precision,Macro Recall,Macro F1,Weighted Precision,Weighted Recall,Weighted F1,Classification Time
+"((128, 64), 'tanh', 'sgd', 0.001, 'constant', 0.01, 500, False)",0.963,0.9219,0.9688,0.9429,0.9672,0.963,0.9639,00:01
