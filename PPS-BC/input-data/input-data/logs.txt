@@ -1,0 +1,497 @@
+--------------------------------------------------
+original dataset label distribution
+--------------------------------------------------
+count label
+0    986
+1    229
+Name: count, dtype: int64
+proportion label
+0    0.811523
+1    0.188477
+Name: proportion, dtype: float64
+--------------------------------------------------
+seed: 2
+--------------------------------------------------
+----- [1]: train 607 | test 608
+train set label
+0    0.812191
+1    0.187809
+Name: proportion, dtype: float64
+test set label
+0    0.810855
+1    0.189145
+Name: proportion, dtype: float64
+----- [2]: train 608 | test 607
+train set label
+0    0.810855
+1    0.189145
+Name: proportion, dtype: float64
+test set label
+0    0.812191
+1    0.187809
+Name: proportion, dtype: float64
+--------------------------------------------------
+seed: 3
+--------------------------------------------------
+----- [1]: train 810 | test 405
+train set label
+0    0.811111
+1    0.188889
+Name: proportion, dtype: float64
+test set label
+0    0.812346
+1    0.187654
+Name: proportion, dtype: float64
+----- [2]: train 810 | test 405
+train set label
+0    0.811111
+1    0.188889
+Name: proportion, dtype: float64
+test set label
+0    0.812346
+1    0.187654
+Name: proportion, dtype: float64
+----- [3]: train 810 | test 405
+train set label
+0    0.812346
+1    0.187654
+Name: proportion, dtype: float64
+test set label
+0    0.809877
+1    0.190123
+Name: proportion, dtype: float64
+--------------------------------------------------
+seed: 5
+--------------------------------------------------
+----- [1]: train 972 | test 243
+train set label
+0    0.8107
+1    0.1893
+Name: proportion, dtype: float64
+test set label
+0    0.814815
+1    0.185185
+Name: proportion, dtype: float64
+----- [2]: train 972 | test 243
+train set label
+0    0.811728
+1    0.188272
+Name: proportion, dtype: float64
+test set label
+0    0.8107
+1    0.1893
+Name: proportion, dtype: float64
+----- [3]: train 972 | test 243
+train set label
+0    0.811728
+1    0.188272
+Name: proportion, dtype: float64
+test set label
+0    0.8107
+1    0.1893
+Name: proportion, dtype: float64
+----- [4]: train 972 | test 243
+train set label
+0    0.811728
+1    0.188272
+Name: proportion, dtype: float64
+test set label
+0    0.8107
+1    0.1893
+Name: proportion, dtype: float64
+----- [5]: train 972 | test 243
+train set label
+0    0.811728
+1    0.188272
+Name: proportion, dtype: float64
+test set label
+0    0.8107
+1    0.1893
+Name: proportion, dtype: float64
+--------------------------------------------------
+seed: 8
+--------------------------------------------------
+----- [1]: train 1063 | test 152
+train set label
+0    0.810913
+1    0.189087
+Name: proportion, dtype: float64
+test set label
+0    0.815789
+1    0.184211
+Name: proportion, dtype: float64
+----- [2]: train 1063 | test 152
+train set label
+0    0.810913
+1    0.189087
+Name: proportion, dtype: float64
+test set label
+0    0.815789
+1    0.184211
+Name: proportion, dtype: float64
+----- [3]: train 1063 | test 152
+train set label
+0    0.811853
+1    0.188147
+Name: proportion, dtype: float64
+test set label
+0    0.809211
+1    0.190789
+Name: proportion, dtype: float64
+----- [4]: train 1063 | test 152
+train set label
+0    0.811853
+1    0.188147
+Name: proportion, dtype: float64
+test set label
+0    0.809211
+1    0.190789
+Name: proportion, dtype: float64
+----- [5]: train 1063 | test 152
+train set label
+0    0.811853
+1    0.188147
+Name: proportion, dtype: float64
+test set label
+0    0.809211
+1    0.190789
+Name: proportion, dtype: float64
+----- [6]: train 1063 | test 152
+train set label
+0    0.811853
+1    0.188147
+Name: proportion, dtype: float64
+test set label
+0    0.809211
+1    0.190789
+Name: proportion, dtype: float64
+----- [7]: train 1063 | test 152
+train set label
+0    0.811853
+1    0.188147
+Name: proportion, dtype: float64
+test set label
+0    0.809211
+1    0.190789
+Name: proportion, dtype: float64
+----- [8]: train 1064 | test 151
+train set label
+0    0.81109
+1    0.18891
+Name: proportion, dtype: float64
+test set label
+0    0.81457
+1    0.18543
+Name: proportion, dtype: float64
+--------------------------------------------------
+seed: 13
+--------------------------------------------------
+----- [1]: train 1121 | test 94
+train set label
+0    0.811775
+1    0.188225
+Name: proportion, dtype: float64
+test set label
+0    0.808511
+1    0.191489
+Name: proportion, dtype: float64
+----- [2]: train 1121 | test 94
+train set label
+0    0.811775
+1    0.188225
+Name: proportion, dtype: float64
+test set label
+0    0.808511
+1    0.191489
+Name: proportion, dtype: float64
+----- [3]: train 1121 | test 94
+train set label
+0    0.811775
+1    0.188225
+Name: proportion, dtype: float64
+test set label
+0    0.808511
+1    0.191489
+Name: proportion, dtype: float64
+----- [4]: train 1121 | test 94
+train set label
+0    0.811775
+1    0.188225
+Name: proportion, dtype: float64
+test set label
+0    0.808511
+1    0.191489
+Name: proportion, dtype: float64
+----- [5]: train 1121 | test 94
+train set label
+0    0.811775
+1    0.188225
+Name: proportion, dtype: float64
+test set label
+0    0.808511
+1    0.191489
+Name: proportion, dtype: float64
+----- [6]: train 1121 | test 94
+train set label
+0    0.811775
+1    0.188225
+Name: proportion, dtype: float64
+test set label
+0    0.808511
+1    0.191489
+Name: proportion, dtype: float64
+----- [7]: train 1122 | test 93
+train set label
+0    0.811052
+1    0.188948
+Name: proportion, dtype: float64
+test set label
+0    0.817204
+1    0.182796
+Name: proportion, dtype: float64
+----- [8]: train 1122 | test 93
+train set label
+0    0.811052
+1    0.188948
+Name: proportion, dtype: float64
+test set label
+0    0.817204
+1    0.182796
+Name: proportion, dtype: float64
+----- [9]: train 1122 | test 93
+train set label
+0    0.811052
+1    0.188948
+Name: proportion, dtype: float64
+test set label
+0    0.817204
+1    0.182796
+Name: proportion, dtype: float64
+----- [10]: train 1122 | test 93
+train set label
+0    0.811052
+1    0.188948
+Name: proportion, dtype: float64
+test set label
+0    0.817204
+1    0.182796
+Name: proportion, dtype: float64
+----- [11]: train 1122 | test 93
+train set label
+0    0.811052
+1    0.188948
+Name: proportion, dtype: float64
+test set label
+0    0.817204
+1    0.182796
+Name: proportion, dtype: float64
+----- [12]: train 1122 | test 93
+train set label
+0    0.811943
+1    0.188057
+Name: proportion, dtype: float64
+test set label
+0    0.806452
+1    0.193548
+Name: proportion, dtype: float64
+----- [13]: train 1122 | test 93
+train set label
+0    0.811943
+1    0.188057
+Name: proportion, dtype: float64
+test set label
+0    0.806452
+1    0.193548
+Name: proportion, dtype: float64
+--------------------------------------------------
+seed: 21
+--------------------------------------------------
+----- [1]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [2]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [3]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [4]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [5]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [6]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [7]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [8]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [9]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [10]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [11]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [12]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [13]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [14]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [15]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [16]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [17]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [18]: train 1157 | test 58
+train set label
+0    0.811582
+1    0.188418
+Name: proportion, dtype: float64
+test set label
+0    0.810345
+1    0.189655
+Name: proportion, dtype: float64
+----- [19]: train 1158 | test 57
+train set label
+0    0.810881
+1    0.189119
+Name: proportion, dtype: float64
+test set label
+0    0.824561
+1    0.175439
+Name: proportion, dtype: float64
+----- [20]: train 1158 | test 57
+train set label
+0    0.810881
+1    0.189119
+Name: proportion, dtype: float64
+test set label
+0    0.824561
+1    0.175439
+Name: proportion, dtype: float64
+----- [21]: train 1158 | test 57
+train set label
+0    0.811744
+1    0.188256
+Name: proportion, dtype: float64
+test set label
+0    0.807018
+1    0.192982
+Name: proportion, dtype: float64
