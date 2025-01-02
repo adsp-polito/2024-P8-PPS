@@ -170,38 +170,6 @@ def predict(
         print(classification_report(labels, preds))
     return preds, probs
 
-def download(
-    url: str, 
-    dir: str
-):
-    """
-    download bert-base model files from GitHub
-
-    args:
-        url (str): base URL of the GitHub repository folder with model files
-        dir (str): directory to store the files
-    """
-    os.makedirs(dir, exist_ok=True)
-    files = [
-        "config.json", 
-        "model.safetensors", 
-        "special_tokens_map.json", 
-        "tokenizer.json", 
-        "tokenizer_config.json",
-        "vocab.txt"
-    ]
-
-    for file in files:
-        root = f"{url}/{file}"
-        path = os.path.join(dir, file)
-        if not os.path.exists(path):
-            print(f"downloading {file} from {root}...")
-            response = requests.get(root)
-            response.raise_for_status()
-            with open(path, "wb") as f:
-                f.write(response.content)
-            print(f"saving {file} into {path}")
-
 def main(
     title: List[str], 
     abstract: List[str], 
@@ -220,20 +188,13 @@ def main(
         os.path.join(dir, 'pubmed-knn-pipeline.joblib'), 
         os.path.join(dir, 'biomed-svc-pipeline.joblib')
     ]
-    urls = {
-        "pubmed-bert-base": "https://raw.githubusercontent.com/adsp-polito/2024-P8-PPS/main/PPS-BC/models/pubmed-bert-base",
-        "biomed-bert-base": "https://raw.githubusercontent.com/adsp-polito/2024-P8-PPS/main/PPS-BC/models/biomed-bert-base"
-    }
-    paths = {
-        key: os.path.join(dir, key)
-        for key in urls.keys()
-    }
-    for key, url in urls.items():
-        download(url, paths[key])
     bases = [
-        paths["pubmed-bert-base"], 
-        paths["biomed-bert-base"]
+        os.path.join(dir, 'pubmed-bert-base'),
+        os.path.join(dir, 'biomed-bert-base')
     ]
+    for base in bases:
+        if not os.path.exists(base):
+            raise FileNotFoundError(f"BERT model directory {base} does not exist")
     threshold = 0.3875
     weights = [0.4375, 0.5625]
     data = pd.DataFrame({'title': title, 'abstract': abstract})
