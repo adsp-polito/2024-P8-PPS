@@ -1,0 +1,800 @@
+bert-base-uncased-title-text-hidden-states on device...
+status: pass
+time: 0.010
+
+bert-base-uncased-title-text-classification-token on device...
+status: pass
+time: 0.007
+
+bert-base-uncased-abstract-text-hidden-states on device...
+status: pass
+time: 0.032
+
+bert-base-uncased-abstract-text-classification-token on device...
+status: pass
+time: 0.034
+
+bert-base-uncased-text-concatenation-hidden-states on device...
+status: pass
+time: 0.033
+
+bert-base-uncased-text-concatenation-classification-token on device...
+status: pass
+time: 0.033
+
+bert-base-uncased-vector-sum-hidden-states on device...
+status: pass
+time: 0.033
+
+bert-base-uncased-vector-sum-classification-token on device...
+status: pass
+time: 0.034
+
+bert-base-uncased-vector-concatenation-hidden-states on device...
+status: pass
+time: 0.034
+
+bert-base-uncased-vector-concatenation-classification-token on device...
+status: pass
+time: 0.034
+
+bert-base-uncased-vector-average-hidden-states on device...
+status: pass
+time: 0.033
+
+bert-base-uncased-vector-average-classification-token on device...
+status: pass
+time: 0.033
+
+bert-base-uncased-vector-weighted-average-4060-hidden-states on device...
+status: pass
+time: 0.034
+
+bert-base-uncased-vector-weighted-average-4060-classification-token on device...
+status: pass
+time: 0.033
+
+bert-base-uncased-vector-weighted-average-3070-hidden-states on device...
+status: pass
+time: 0.034
+
+bert-base-uncased-vector-weighted-average-3070-classification-token on device...
+status: pass
+time: 0.034
+
+bert-base-uncased-vector-weighted-average-2080-hidden-states on device...
+status: pass
+time: 0.034
+
+bert-base-uncased-vector-weighted-average-2080-classification-token on device...
+status: pass
+time: 0.034
+
+bert-base-uncased-vector-weighted-average-1090-hidden-states on device...
+status: pass
+time: 0.034
+
+bert-base-uncased-vector-weighted-average-1090-classification-token on device...
+status: pass
+time: 0.033
+
+all-mpnet-base-v2-title-text-hidden-states on device...
+status: pass
+time: 0.009
+
+all-mpnet-base-v2-title-text-classification-token on device...
+status: pass
+time: 0.007
+
+all-mpnet-base-v2-abstract-text-hidden-states on device...
+status: pass
+time: 0.040
+
+all-mpnet-base-v2-abstract-text-classification-token on device...
+status: pass
+time: 0.039
+
+all-mpnet-base-v2-text-concatenation-hidden-states on device...
+status: pass
+time: 0.039
+
+all-mpnet-base-v2-text-concatenation-classification-token on device...
+status: pass
+time: 0.039
+
+all-mpnet-base-v2-vector-sum-hidden-states on device...
+status: pass
+time: 0.039
+
+all-mpnet-base-v2-vector-sum-classification-token on device...
+status: pass
+time: 0.039
+
+all-mpnet-base-v2-vector-concatenation-hidden-states on device...
+status: pass
+time: 0.039
+
+all-mpnet-base-v2-vector-concatenation-classification-token on device...
+status: pass
+time: 0.039
+
+all-mpnet-base-v2-vector-average-hidden-states on device...
+status: pass
+time: 0.039
+
+all-mpnet-base-v2-vector-average-classification-token on device...
+status: pass
+time: 0.039
+
+all-mpnet-base-v2-vector-weighted-average-4060-hidden-states on device...
+status: pass
+time: 0.039
+
+all-mpnet-base-v2-vector-weighted-average-4060-classification-token on device...
+status: pass
+time: 0.039
+
+all-mpnet-base-v2-vector-weighted-average-3070-hidden-states on device...
+status: pass
+time: 0.039
+
+all-mpnet-base-v2-vector-weighted-average-3070-classification-token on device...
+status: pass
+time: 0.039
+
+all-mpnet-base-v2-vector-weighted-average-2080-hidden-states on device...
+status: pass
+time: 0.039
+
+all-mpnet-base-v2-vector-weighted-average-2080-classification-token on device...
+status: pass
+time: 0.039
+
+all-mpnet-base-v2-vector-weighted-average-1090-hidden-states on device...
+status: pass
+time: 0.039
+
+all-mpnet-base-v2-vector-weighted-average-1090-classification-token on device...
+status: pass
+time: 0.039
+
+pubmedbert-base-embeddings-title-text-hidden-states on device...
+status: pass
+time: 0.010
+
+pubmedbert-base-embeddings-title-text-classification-token on device...
+status: pass
+time: 0.009
+
+pubmedbert-base-embeddings-abstract-text-hidden-states on device...
+status: pass
+time: 0.034
+
+pubmedbert-base-embeddings-abstract-text-classification-token on device...
+status: pass
+time: 0.034
+
+pubmedbert-base-embeddings-text-concatenation-hidden-states on device...
+status: pass
+time: 0.035
+
+pubmedbert-base-embeddings-text-concatenation-classification-token on device...
+status: pass
+time: 0.034
+
+pubmedbert-base-embeddings-vector-sum-hidden-states on device...
+status: pass
+time: 0.034
+
+pubmedbert-base-embeddings-vector-sum-classification-token on device...
+status: pass
+time: 0.034
+
+pubmedbert-base-embeddings-vector-concatenation-hidden-states on device...
+status: pass
+time: 0.034
+
+pubmedbert-base-embeddings-vector-concatenation-classification-token on device...
+status: pass
+time: 0.034
+
+pubmedbert-base-embeddings-vector-average-hidden-states on device...
+status: pass
+time: 0.035
+
+pubmedbert-base-embeddings-vector-average-classification-token on device...
+status: pass
+time: 0.034
+
+pubmedbert-base-embeddings-vector-weighted-average-4060-hidden-states on device...
+status: pass
+time: 0.035
+
+pubmedbert-base-embeddings-vector-weighted-average-4060-classification-token on device...
+status: pass
+time: 0.034
+
+pubmedbert-base-embeddings-vector-weighted-average-3070-hidden-states on device...
+status: pass
+time: 0.034
+
+pubmedbert-base-embeddings-vector-weighted-average-3070-classification-token on device...
+status: pass
+time: 0.034
+
+pubmedbert-base-embeddings-vector-weighted-average-2080-hidden-states on device...
+status: pass
+time: 0.034
+
+pubmedbert-base-embeddings-vector-weighted-average-2080-classification-token on device...
+status: pass
+time: 0.034
+
+pubmedbert-base-embeddings-vector-weighted-average-1090-hidden-states on device...
+status: pass
+time: 0.034
+
+pubmedbert-base-embeddings-vector-weighted-average-1090-classification-token on device...
+status: pass
+time: 0.034
+
+S-PubMedBert-MS-MARCO-title-text-hidden-states on device...
+status: pass
+time: 0.011
+
+S-PubMedBert-MS-MARCO-title-text-classification-token on device...
+status: pass
+time: 0.009
+
+S-PubMedBert-MS-MARCO-abstract-text-hidden-states on device...
+status: pass
+time: 0.035
+
+S-PubMedBert-MS-MARCO-abstract-text-classification-token on device...
+status: pass
+time: 0.034
+
+S-PubMedBert-MS-MARCO-text-concatenation-hidden-states on device...
+status: pass
+time: 0.034
+
+S-PubMedBert-MS-MARCO-text-concatenation-classification-token on device...
+status: pass
+time: 0.034
+
+S-PubMedBert-MS-MARCO-vector-sum-hidden-states on device...
+status: pass
+time: 0.035
+
+S-PubMedBert-MS-MARCO-vector-sum-classification-token on device...
+status: pass
+time: 0.034
+
+S-PubMedBert-MS-MARCO-vector-concatenation-hidden-states on device...
+status: pass
+time: 0.034
+
+S-PubMedBert-MS-MARCO-vector-concatenation-classification-token on device...
+status: pass
+time: 0.034
+
+S-PubMedBert-MS-MARCO-vector-average-hidden-states on device...
+status: pass
+time: 0.035
+
+S-PubMedBert-MS-MARCO-vector-average-classification-token on device...
+status: pass
+time: 0.034
+
+S-PubMedBert-MS-MARCO-vector-weighted-average-4060-hidden-states on device...
+status: pass
+time: 0.034
+
+S-PubMedBert-MS-MARCO-vector-weighted-average-4060-classification-token on device...
+status: pass
+time: 0.034
+
+S-PubMedBert-MS-MARCO-vector-weighted-average-3070-hidden-states on device...
+status: pass
+time: 0.034
+
+S-PubMedBert-MS-MARCO-vector-weighted-average-3070-classification-token on device...
+status: pass
+time: 0.034
+
+S-PubMedBert-MS-MARCO-vector-weighted-average-2080-hidden-states on device...
+status: pass
+time: 0.034
+
+S-PubMedBert-MS-MARCO-vector-weighted-average-2080-classification-token on device...
+status: pass
+time: 0.034
+
+S-PubMedBert-MS-MARCO-vector-weighted-average-1090-hidden-states on device...
+status: pass
+time: 0.035
+
+S-PubMedBert-MS-MARCO-vector-weighted-average-1090-classification-token on device...
+status: pass
+time: 0.034
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-title-text-hidden-states on device...
+status: pass
+time: 0.012
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-title-text-classification-token on device...
+status: pass
+time: 0.011
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-abstract-text-hidden-states on device...
+status: pass
+time: 0.036
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-abstract-text-classification-token on device...
+status: pass
+time: 0.035
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-text-concatenation-hidden-states on device...
+status: pass
+time: 0.036
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-text-concatenation-classification-token on device...
+status: pass
+time: 0.036
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-vector-sum-hidden-states on device...
+status: pass
+time: 0.036
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-vector-sum-classification-token on device...
+status: pass
+time: 0.036
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-vector-concatenation-hidden-states on device...
+status: pass
+time: 0.036
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-vector-concatenation-classification-token on device...
+status: pass
+time: 0.036
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-vector-average-hidden-states on device...
+status: pass
+time: 0.035
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-vector-average-classification-token on device...
+status: pass
+time: 0.036
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-vector-weighted-average-4060-hidden-states on device...
+status: pass
+time: 0.036
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-vector-weighted-average-4060-classification-token on device...
+status: pass
+time: 0.035
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-vector-weighted-average-3070-hidden-states on device...
+status: pass
+time: 0.035
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-vector-weighted-average-3070-classification-token on device...
+status: pass
+time: 0.036
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-vector-weighted-average-2080-hidden-states on device...
+status: pass
+time: 0.036
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-vector-weighted-average-2080-classification-token on device...
+status: pass
+time: 0.035
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-vector-weighted-average-1090-hidden-states on device...
+status: pass
+time: 0.035
+
+BiomedNLP-BiomedBERT-base-uncased-abstract-vector-weighted-average-1090-classification-token on device...
+status: pass
+time: 0.035
+
+BioLinkBERT-base-title-text-hidden-states on device...
+status: pass
+time: 0.011
+
+BioLinkBERT-base-title-text-classification-token on device...
+status: pass
+time: 0.009
+
+BioLinkBERT-base-abstract-text-hidden-states on device...
+status: pass
+time: 0.034
+
+BioLinkBERT-base-abstract-text-classification-token on device...
+status: pass
+time: 0.034
+
+BioLinkBERT-base-text-concatenation-hidden-states on device...
+status: pass
+time: 0.034
+
+BioLinkBERT-base-text-concatenation-classification-token on device...
+status: pass
+time: 0.034
+
+BioLinkBERT-base-vector-sum-hidden-states on device...
+status: pass
+time: 0.034
+
+BioLinkBERT-base-vector-sum-classification-token on device...
+status: pass
+time: 0.034
+
+BioLinkBERT-base-vector-concatenation-hidden-states on device...
+status: pass
+time: 0.035
+
+BioLinkBERT-base-vector-concatenation-classification-token on device...
+status: pass
+time: 0.035
+
+BioLinkBERT-base-vector-average-hidden-states on device...
+status: pass
+time: 0.034
+
+BioLinkBERT-base-vector-average-classification-token on device...
+status: pass
+time: 0.034
+
+BioLinkBERT-base-vector-weighted-average-4060-hidden-states on device...
+status: pass
+time: 0.034
+
+BioLinkBERT-base-vector-weighted-average-4060-classification-token on device...
+status: pass
+time: 0.034
+
+BioLinkBERT-base-vector-weighted-average-3070-hidden-states on device...
+status: pass
+time: 0.034
+
+BioLinkBERT-base-vector-weighted-average-3070-classification-token on device...
+status: pass
+time: 0.034
+
+BioLinkBERT-base-vector-weighted-average-2080-hidden-states on device...
+status: pass
+time: 0.035
+
+BioLinkBERT-base-vector-weighted-average-2080-classification-token on device...
+status: pass
+time: 0.035
+
+BioLinkBERT-base-vector-weighted-average-1090-hidden-states on device...
+status: pass
+time: 0.034
+
+BioLinkBERT-base-vector-weighted-average-1090-classification-token on device...
+status: pass
+time: 0.035
+
+SapBERT-from-PubMedBERT-fulltext-title-text-hidden-states on device...
+status: pass
+time: 0.009
+
+SapBERT-from-PubMedBERT-fulltext-title-text-classification-token on device...
+status: pass
+time: 0.007
+
+SapBERT-from-PubMedBERT-fulltext-abstract-text-hidden-states on device...
+status: pass
+time: 0.033
+
+SapBERT-from-PubMedBERT-fulltext-abstract-text-classification-token on device...
+status: pass
+time: 0.033
+
+SapBERT-from-PubMedBERT-fulltext-text-concatenation-hidden-states on device...
+status: pass
+time: 0.033
+
+SapBERT-from-PubMedBERT-fulltext-text-concatenation-classification-token on device...
+status: pass
+time: 0.033
+
+SapBERT-from-PubMedBERT-fulltext-vector-sum-hidden-states on device...
+status: pass
+time: 0.033
+
+SapBERT-from-PubMedBERT-fulltext-vector-sum-classification-token on device...
+status: pass
+time: 0.033
+
+SapBERT-from-PubMedBERT-fulltext-vector-concatenation-hidden-states on device...
+status: pass
+time: 0.033
+
+SapBERT-from-PubMedBERT-fulltext-vector-concatenation-classification-token on device...
+status: pass
+time: 0.033
+
+SapBERT-from-PubMedBERT-fulltext-vector-average-hidden-states on device...
+status: pass
+time: 0.033
+
+SapBERT-from-PubMedBERT-fulltext-vector-average-classification-token on device...
+status: pass
+time: 0.033
+
+SapBERT-from-PubMedBERT-fulltext-vector-weighted-average-4060-hidden-states on device...
+status: pass
+time: 0.033
+
+SapBERT-from-PubMedBERT-fulltext-vector-weighted-average-4060-classification-token on device...
+status: pass
+time: 0.033
+
+SapBERT-from-PubMedBERT-fulltext-vector-weighted-average-3070-hidden-states on device...
+status: pass
+time: 0.033
+
+SapBERT-from-PubMedBERT-fulltext-vector-weighted-average-3070-classification-token on device...
+status: pass
+time: 0.033
+
+SapBERT-from-PubMedBERT-fulltext-vector-weighted-average-2080-hidden-states on device...
+status: pass
+time: 0.033
+
+SapBERT-from-PubMedBERT-fulltext-vector-weighted-average-2080-classification-token on device...
+status: pass
+time: 0.033
+
+SapBERT-from-PubMedBERT-fulltext-vector-weighted-average-1090-hidden-states on device...
+status: pass
+time: 0.033
+
+SapBERT-from-PubMedBERT-fulltext-vector-weighted-average-1090-classification-token on device...
+status: pass
+time: 0.033
+
+scibert-scivocab-uncased-title-text-hidden-states on device...
+status: pass
+time: 0.016
+
+scibert-scivocab-uncased-title-text-classification-token on device...
+status: pass
+time: 0.014
+
+scibert-scivocab-uncased-abstract-text-hidden-states on device...
+status: pass
+time: 0.039
+
+scibert-scivocab-uncased-abstract-text-classification-token on device...
+status: pass
+time: 0.039
+
+scibert-scivocab-uncased-text-concatenation-hidden-states on device...
+status: pass
+time: 0.039
+
+scibert-scivocab-uncased-text-concatenation-classification-token on device...
+status: pass
+time: 0.040
+
+scibert-scivocab-uncased-vector-sum-hidden-states on device...
+status: pass
+time: 0.039
+
+scibert-scivocab-uncased-vector-sum-classification-token on device...
+status: pass
+time: 0.039
+
+scibert-scivocab-uncased-vector-concatenation-hidden-states on device...
+status: pass
+time: 0.039
+
+scibert-scivocab-uncased-vector-concatenation-classification-token on device...
+status: pass
+time: 0.039
+
+scibert-scivocab-uncased-vector-average-hidden-states on device...
+status: pass
+time: 0.039
+
+scibert-scivocab-uncased-vector-average-classification-token on device...
+status: pass
+time: 0.039
+
+scibert-scivocab-uncased-vector-weighted-average-4060-hidden-states on device...
+status: pass
+time: 0.039
+
+scibert-scivocab-uncased-vector-weighted-average-4060-classification-token on device...
+status: pass
+time: 0.039
+
+scibert-scivocab-uncased-vector-weighted-average-3070-hidden-states on device...
+status: pass
+time: 0.039
+
+scibert-scivocab-uncased-vector-weighted-average-3070-classification-token on device...
+status: pass
+time: 0.040
+
+scibert-scivocab-uncased-vector-weighted-average-2080-hidden-states on device...
+status: pass
+time: 0.039
+
+scibert-scivocab-uncased-vector-weighted-average-2080-classification-token on device...
+status: pass
+time: 0.039
+
+scibert-scivocab-uncased-vector-weighted-average-1090-hidden-states on device...
+status: pass
+time: 0.040
+
+scibert-scivocab-uncased-vector-weighted-average-1090-classification-token on device...
+status: pass
+time: 0.039
+
+biobert-base-cased-v1.2-title-text-hidden-states on device...
+status: pass
+time: 0.016
+
+biobert-base-cased-v1.2-title-text-classification-token on device...
+status: pass
+time: 0.014
+
+biobert-base-cased-v1.2-abstract-text-hidden-states on device...
+status: pass
+time: 0.040
+
+biobert-base-cased-v1.2-abstract-text-classification-token on device...
+status: pass
+time: 0.039
+
+biobert-base-cased-v1.2-text-concatenation-hidden-states on device...
+status: pass
+time: 0.040
+
+biobert-base-cased-v1.2-text-concatenation-classification-token on device...
+status: pass
+time: 0.040
+
+biobert-base-cased-v1.2-vector-sum-hidden-states on device...
+status: pass
+time: 0.040
+
+biobert-base-cased-v1.2-vector-sum-classification-token on device...
+status: pass
+time: 0.041
+
+biobert-base-cased-v1.2-vector-concatenation-hidden-states on device...
+status: pass
+time: 0.040
+
+biobert-base-cased-v1.2-vector-concatenation-classification-token on device...
+status: pass
+time: 0.040
+
+biobert-base-cased-v1.2-vector-average-hidden-states on device...
+status: pass
+time: 0.040
+
+biobert-base-cased-v1.2-vector-average-classification-token on device...
+status: pass
+time: 0.040
+
+biobert-base-cased-v1.2-vector-weighted-average-4060-hidden-states on device...
+status: pass
+time: 0.040
+
+biobert-base-cased-v1.2-vector-weighted-average-4060-classification-token on device...
+status: pass
+time: 0.040
+
+biobert-base-cased-v1.2-vector-weighted-average-3070-hidden-states on device...
+status: pass
+time: 0.040
+
+biobert-base-cased-v1.2-vector-weighted-average-3070-classification-token on device...
+status: pass
+time: 0.040
+
+biobert-base-cased-v1.2-vector-weighted-average-2080-hidden-states on device...
+status: pass
+time: 0.040
+
+biobert-base-cased-v1.2-vector-weighted-average-2080-classification-token on device...
+status: pass
+time: 0.039
+
+biobert-base-cased-v1.2-vector-weighted-average-1090-hidden-states on device...
+status: pass
+time: 0.040
+
+biobert-base-cased-v1.2-vector-weighted-average-1090-classification-token on device...
+status: pass
+time: 0.040
+
+Bio-ClinicalBERT-title-text-hidden-states on device...
+status: pass
+time: 0.016
+
+Bio-ClinicalBERT-title-text-classification-token on device...
+status: pass
+time: 0.014
+
+Bio-ClinicalBERT-abstract-text-hidden-states on device...
+status: pass
+time: 0.039
+
+Bio-ClinicalBERT-abstract-text-classification-token on device...
+status: pass
+time: 0.039
+
+Bio-ClinicalBERT-text-concatenation-hidden-states on device...
+status: pass
+time: 0.039
+
+Bio-ClinicalBERT-text-concatenation-classification-token on device...
+status: pass
+time: 0.039
+
+Bio-ClinicalBERT-vector-sum-hidden-states on device...
+status: pass
+time: 0.039
+
+Bio-ClinicalBERT-vector-sum-classification-token on device...
+status: pass
+time: 0.039
+
+Bio-ClinicalBERT-vector-concatenation-hidden-states on device...
+status: pass
+time: 0.041
+
+Bio-ClinicalBERT-vector-concatenation-classification-token on device...
+status: pass
+time: 0.039
+
+Bio-ClinicalBERT-vector-average-hidden-states on device...
+status: pass
+time: 0.039
+
+Bio-ClinicalBERT-vector-average-classification-token on device...
+status: pass
+time: 0.040
+
+Bio-ClinicalBERT-vector-weighted-average-4060-hidden-states on device...
+status: pass
+time: 0.039
+
+Bio-ClinicalBERT-vector-weighted-average-4060-classification-token on device...
+status: pass
+time: 0.039
+
+Bio-ClinicalBERT-vector-weighted-average-3070-hidden-states on device...
+status: pass
+time: 0.039
+
+Bio-ClinicalBERT-vector-weighted-average-3070-classification-token on device...
+status: pass
+time: 0.040
+
+Bio-ClinicalBERT-vector-weighted-average-2080-hidden-states on device...
+status: pass
+time: 0.039
+
+Bio-ClinicalBERT-vector-weighted-average-2080-classification-token on device...
+status: pass
+time: 0.039
+
+Bio-ClinicalBERT-vector-weighted-average-1090-hidden-states on device...
+status: pass
+time: 0.039
+
+Bio-ClinicalBERT-vector-weighted-average-1090-classification-token on device...
+status: pass
+time: 0.040
+
