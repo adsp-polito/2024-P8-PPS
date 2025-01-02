@@ -1,9 +1,0 @@
-accuracy: 0.9630
-macro precision: 0.9219
-macro recall: 0.9688
-macro f1-score: 0.9429
-weighted precision: 0.9672
-weighted recall: 0.9630
-weighted f1-score: 0.9639
-classification time: 00:01
---------------------------------------------------
