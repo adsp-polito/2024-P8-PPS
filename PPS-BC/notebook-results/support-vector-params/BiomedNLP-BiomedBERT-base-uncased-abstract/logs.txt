@@ -1,0 +1,6288 @@
+
+k-fold-2
+
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8409785932721713
+F1-PPS: 0.7119741100323624
+TPR: 0.9565217391304348
+PPV: 0.5670103092783505
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.7360742705570292
+F1-PPS: 0.5388349514563107
+TPR: 0.9736842105263158
+PPV: 0.3724832214765101
+
+F2-PPS: 0.7885264319146003
+F1-PPS: 0.6254045307443366
+TPR: 0.9651029748283753
+PPV: 0.4697467653774303
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8967851099830795
+F1-PPS: 0.8617886178861789
+TPR: 0.9217391304347826
+PPV: 0.8091603053435115
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8950086058519794
+F1-PPS: 0.8702928870292888
+TPR: 0.9122807017543859
+PPV: 0.832
+
+F2-PPS: 0.8958968579175295
+F1-PPS: 0.8660407524577338
+TPR: 0.9170099160945843
+PPV: 0.8205801526717558
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9098786828422877
+F1-PPS: 0.9051724137931034
+TPR: 0.9130434782608695
+PPV: 0.8974358974358975
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.897887323943662
+F1-PPS: 0.9026548672566371
+TPR: 0.8947368421052632
+PPV: 0.9107142857142857
+
+F2-PPS: 0.9038830033929748
+F1-PPS: 0.9039136405248702
+TPR: 0.9038901601830663
+PPV: 0.9040750915750916
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9162303664921466
+F1-PPS: 0.9210526315789473
+TPR: 0.9130434782608695
+PPV: 0.9292035398230089
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9098939929328622
+F1-PPS: 0.9196428571428571
+TPR: 0.9035087719298246
+PPV: 0.9363636363636364
+
+F2-PPS: 0.9130621797125045
+F1-PPS: 0.9203477443609023
+TPR: 0.908276125095347
+PPV: 0.9327835880933226
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9162303664921466
+F1-PPS: 0.9210526315789473
+TPR: 0.9130434782608695
+PPV: 0.9292035398230089
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9098939929328622
+F1-PPS: 0.9196428571428571
+TPR: 0.9035087719298246
+PPV: 0.9363636363636364
+
+F2-PPS: 0.9130621797125045
+F1-PPS: 0.9203477443609023
+TPR: 0.908276125095347
+PPV: 0.9327835880933226
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8983050847457628
+F1-PPS: 0.8653061224489796
+TPR: 0.9217391304347826
+PPV: 0.8153846153846154
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8919382504288165
+F1-PPS: 0.8630705394190872
+TPR: 0.9122807017543859
+PPV: 0.8188976377952756
+
+F2-PPS: 0.8951216675872896
+F1-PPS: 0.8641883309340335
+TPR: 0.9170099160945843
+PPV: 0.8171411265899455
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8952702702702703
+F1-PPS: 0.8582995951417004
+TPR: 0.9217391304347826
+PPV: 0.803030303030303
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9106830122591943
+F1-PPS: 0.9082969432314411
+TPR: 0.9122807017543859
+PPV: 0.9043478260869565
+
+F2-PPS: 0.9029766412647323
+F1-PPS: 0.8832982691865707
+TPR: 0.9170099160945843
+PPV: 0.8536890645586297
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9106830122591943
+F1-PPS: 0.9203539823008849
+TPR: 0.9043478260869565
+PPV: 0.9369369369369369
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9058614564831261
+F1-PPS: 0.9230769230769231
+TPR: 0.8947368421052632
+PPV: 0.9532710280373832
+
+F2-PPS: 0.9082722343711602
+F1-PPS: 0.921715452688904
+TPR: 0.8995423340961098
+PPV: 0.9451039824871601
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9122807017543859
+F1-PPS: 0.9244444444444444
+TPR: 0.9043478260869565
+PPV: 0.9454545454545454
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9017857142857143
+F1-PPS: 0.926605504587156
+TPR: 0.8859649122807017
+PPV: 0.9711538461538461
+
+F2-PPS: 0.90703320802005
+F1-PPS: 0.9255249745158002
+TPR: 0.8951563691838291
+PPV: 0.9583041958041958
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9122807017543859
+F1-PPS: 0.9244444444444444
+TPR: 0.9043478260869565
+PPV: 0.9454545454545454
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9017857142857143
+F1-PPS: 0.926605504587156
+TPR: 0.8859649122807017
+PPV: 0.9711538461538461
+
+F2-PPS: 0.90703320802005
+F1-PPS: 0.9255249745158002
+TPR: 0.8951563691838291
+PPV: 0.9583041958041958
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8961474036850922
+F1-PPS: 0.8492063492063492
+TPR: 0.9304347826086956
+PPV: 0.781021897810219
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9019264448336253
+F1-PPS: 0.8995633187772926
+TPR: 0.9035087719298246
+PPV: 0.8956521739130435
+
+F2-PPS: 0.8990369242593588
+F1-PPS: 0.8743848339918209
+TPR: 0.91697177726926
+PPV: 0.8383370358616313
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8885017421602788
+F1-PPS: 0.8908296943231441
+TPR: 0.8869565217391304
+PPV: 0.8947368421052632
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8849557522123894
+F1-PPS: 0.8968609865470852
+TPR: 0.8771929824561403
+PPV: 0.9174311926605505
+
+F2-PPS: 0.8867287471863341
+F1-PPS: 0.8938453404351147
+TPR: 0.8820747520976353
+PPV: 0.9060840173829068
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9106830122591943
+F1-PPS: 0.9203539823008849
+TPR: 0.9043478260869565
+PPV: 0.9369369369369369
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9058614564831261
+F1-PPS: 0.9230769230769231
+TPR: 0.8947368421052632
+PPV: 0.9532710280373832
+
+F2-PPS: 0.9082722343711602
+F1-PPS: 0.921715452688904
+TPR: 0.8995423340961098
+PPV: 0.9451039824871601
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9122807017543859
+F1-PPS: 0.9244444444444444
+TPR: 0.9043478260869565
+PPV: 0.9454545454545454
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9017857142857143
+F1-PPS: 0.926605504587156
+TPR: 0.8859649122807017
+PPV: 0.9711538461538461
+
+F2-PPS: 0.90703320802005
+F1-PPS: 0.9255249745158002
+TPR: 0.8951563691838291
+PPV: 0.9583041958041958
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9122807017543859
+F1-PPS: 0.9244444444444444
+TPR: 0.9043478260869565
+PPV: 0.9454545454545454
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9017857142857143
+F1-PPS: 0.926605504587156
+TPR: 0.8859649122807017
+PPV: 0.9711538461538461
+
+F2-PPS: 0.90703320802005
+F1-PPS: 0.9255249745158002
+TPR: 0.8951563691838291
+PPV: 0.9583041958041958
+
+k-fold-3
+
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8646616541353384
+F1-PPS: 0.8070175438596491
+TPR: 0.9078947368421053
+PPV: 0.7263157894736842
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8372093023255814
+F1-PPS: 0.7128712871287128
+TPR: 0.9473684210526315
+PPV: 0.5714285714285714
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8747044917257684
+F1-PPS: 0.7708333333333334
+TPR: 0.961038961038961
+PPV: 0.6434782608695652
+
+F2-PPS: 0.8588584827288961
+F1-PPS: 0.7635740547738985
+TPR: 0.9387673729778993
+PPV: 0.6470742072572736
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8974358974358975
+F1-PPS: 0.8641975308641975
+TPR: 0.9210526315789473
+PPV: 0.813953488372093
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9149484536082474
+F1-PPS: 0.8875
+TPR: 0.9342105263157895
+PPV: 0.8452380952380952
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.8695652173913043
+TPR: 0.9090909090909091
+PPV: 0.8333333333333334
+
+F2-PPS: 0.9017471646337626
+F1-PPS: 0.8737542494185006
+TPR: 0.921451355661882
+PPV: 0.8308416389811738
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8947368421052632
+F1-PPS: 0.8947368421052632
+TPR: 0.8947368421052632
+PPV: 0.8947368421052632
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9293193717277487
+F1-PPS: 0.922077922077922
+TPR: 0.9342105263157895
+PPV: 0.9102564102564102
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8900523560209425
+F1-PPS: 0.9006622516556292
+TPR: 0.8831168831168831
+PPV: 0.918918918918919
+
+F2-PPS: 0.9047028566179848
+F1-PPS: 0.9058256719462715
+TPR: 0.9040214171793118
+PPV: 0.9079707237601974
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8970976253298153
+F1-PPS: 0.9006622516556292
+TPR: 0.8947368421052632
+PPV: 0.9066666666666666
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9293193717277487
+F1-PPS: 0.922077922077922
+TPR: 0.9342105263157895
+PPV: 0.9102564102564102
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8792650918635171
+F1-PPS: 0.8933333333333333
+TPR: 0.8701298701298701
+PPV: 0.9178082191780822
+
+F2-PPS: 0.9018940296403604
+F1-PPS: 0.9053578356889614
+TPR: 0.8996924128503077
+PPV: 0.9115770987003864
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8970976253298153
+F1-PPS: 0.9006622516556292
+TPR: 0.8947368421052632
+PPV: 0.9066666666666666
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9293193717277487
+F1-PPS: 0.922077922077922
+TPR: 0.9342105263157895
+PPV: 0.9102564102564102
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8792650918635171
+F1-PPS: 0.8933333333333333
+TPR: 0.8701298701298701
+PPV: 0.9178082191780822
+
+F2-PPS: 0.9018940296403604
+F1-PPS: 0.9053578356889614
+TPR: 0.8996924128503077
+PPV: 0.9115770987003864
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8868894601542416
+F1-PPS: 0.8571428571428571
+TPR: 0.9078947368421053
+PPV: 0.8117647058823529
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9149484536082474
+F1-PPS: 0.8875
+TPR: 0.9342105263157895
+PPV: 0.8452380952380952
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8951406649616368
+F1-PPS: 0.875
+TPR: 0.9090909090909091
+PPV: 0.8433734939759037
+
+F2-PPS: 0.8989928595747086
+F1-PPS: 0.8732142857142856
+TPR: 0.9170653907496013
+PPV: 0.8334587650321174
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9043927648578811
+F1-PPS: 0.8805031446540881
+TPR: 0.9210526315789473
+PPV: 0.8433734939759037
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9102564102564102
+F1-PPS: 0.8765432098765432
+TPR: 0.9342105263157895
+PPV: 0.8255813953488372
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9007832898172323
+F1-PPS: 0.9078947368421053
+TPR: 0.8961038961038961
+PPV: 0.92
+
+F2-PPS: 0.9051441549771745
+F1-PPS: 0.8883136971242456
+TPR: 0.9171223513328776
+PPV: 0.8629849631082469
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9066666666666666
+F1-PPS: 0.9251700680272109
+TPR: 0.8947368421052632
+PPV: 0.9577464788732394
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9366754617414248
+F1-PPS: 0.9403973509933775
+TPR: 0.9342105263157895
+PPV: 0.9466666666666667
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8970976253298153
+F1-PPS: 0.918918918918919
+TPR: 0.8831168831168831
+PPV: 0.9577464788732394
+
+F2-PPS: 0.9134799179126357
+F1-PPS: 0.9281621126465024
+TPR: 0.9040214171793118
+PPV: 0.9540532081377151
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8957219251336899
+F1-PPS: 0.9178082191780822
+TPR: 0.881578947368421
+PPV: 0.9571428571428572
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9366754617414248
+F1-PPS: 0.9403973509933775
+TPR: 0.9342105263157895
+PPV: 0.9466666666666667
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8885941644562334
+F1-PPS: 0.9178082191780822
+TPR: 0.8701298701298701
+PPV: 0.9710144927536232
+
+F2-PPS: 0.9069971837771161
+F1-PPS: 0.9253379297831806
+TPR: 0.8953064479380268
+PPV: 0.9582746721877157
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8957219251336899
+F1-PPS: 0.9178082191780822
+TPR: 0.881578947368421
+PPV: 0.9571428571428572
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9366754617414248
+F1-PPS: 0.9403973509933775
+TPR: 0.9342105263157895
+PPV: 0.9466666666666667
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8885941644562334
+F1-PPS: 0.9178082191780822
+TPR: 0.8701298701298701
+PPV: 0.9710144927536232
+
+F2-PPS: 0.9069971837771161
+F1-PPS: 0.9253379297831806
+TPR: 0.8953064479380268
+PPV: 0.9582746721877157
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9043927648578811
+F1-PPS: 0.8805031446540881
+TPR: 0.9210526315789473
+PPV: 0.8433734939759037
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9125964010282777
+F1-PPS: 0.8819875776397516
+TPR: 0.9342105263157895
+PPV: 0.8352941176470589
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9007832898172323
+F1-PPS: 0.9078947368421053
+TPR: 0.8961038961038961
+PPV: 0.92
+
+F2-PPS: 0.9059241519011304
+F1-PPS: 0.8901284863786483
+TPR: 0.9171223513328776
+PPV: 0.8662225372076541
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8970976253298153
+F1-PPS: 0.9006622516556292
+TPR: 0.8947368421052632
+PPV: 0.9066666666666666
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9078947368421053
+F1-PPS: 0.9078947368421053
+TPR: 0.9078947368421053
+PPV: 0.9078947368421053
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8839050131926122
+F1-PPS: 0.9054054054054054
+TPR: 0.8701298701298701
+PPV: 0.9436619718309859
+
+F2-PPS: 0.8962991251215109
+F1-PPS: 0.9046541313010467
+TPR: 0.8909204830257463
+PPV: 0.9194077917799194
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9066666666666666
+F1-PPS: 0.9251700680272109
+TPR: 0.8947368421052632
+PPV: 0.9577464788732394
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9366754617414248
+F1-PPS: 0.9403973509933775
+TPR: 0.9342105263157895
+PPV: 0.9466666666666667
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8970976253298153
+F1-PPS: 0.918918918918919
+TPR: 0.8831168831168831
+PPV: 0.9577464788732394
+
+F2-PPS: 0.9134799179126357
+F1-PPS: 0.9281621126465024
+TPR: 0.9040214171793118
+PPV: 0.9540532081377151
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8957219251336899
+F1-PPS: 0.9178082191780822
+TPR: 0.881578947368421
+PPV: 0.9571428571428572
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9366754617414248
+F1-PPS: 0.9403973509933775
+TPR: 0.9342105263157895
+PPV: 0.9466666666666667
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8885941644562334
+F1-PPS: 0.9178082191780822
+TPR: 0.8701298701298701
+PPV: 0.9710144927536232
+
+F2-PPS: 0.9069971837771161
+F1-PPS: 0.9253379297831806
+TPR: 0.8953064479380268
+PPV: 0.9582746721877157
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8957219251336899
+F1-PPS: 0.9178082191780822
+TPR: 0.881578947368421
+PPV: 0.9571428571428572
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9366754617414248
+F1-PPS: 0.9403973509933775
+TPR: 0.9342105263157895
+PPV: 0.9466666666666667
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8885941644562334
+F1-PPS: 0.9178082191780822
+TPR: 0.8701298701298701
+PPV: 0.9710144927536232
+
+F2-PPS: 0.9069971837771161
+F1-PPS: 0.9253379297831806
+TPR: 0.8953064479380268
+PPV: 0.9582746721877157
+
+k-fold-21
+
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.78125
+F1-PPS: 0.6451612903225806
+TPR: 0.9090909090909091
+PPV: 0.5
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.7857142857142857
+F1-PPS: 0.5945945945945946
+TPR: 1.0
+PPV: 0.4230769230769231
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.7407407407407407
+TPR: 0.9090909090909091
+PPV: 0.625
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.8088235294117647
+F1-PPS: 0.6285714285714286
+TPR: 1.0
+PPV: 0.4583333333333333
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.75
+F1-PPS: 0.6666666666666666
+TPR: 0.8181818181818182
+PPV: 0.5625
+classifier execution on:
+- train file: fold-14-train.csv
+- test file: fold-14-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.6666666666666666
+TPR: 1.0
+PPV: 0.5
+classifier execution on:
+- train file: fold-15-train.csv
+- test file: fold-15-test.csv
+F2-PPS: 0.7692307692307693
+F1-PPS: 0.625
+TPR: 0.9090909090909091
+PPV: 0.47619047619047616
+classifier execution on:
+- train file: fold-16-train.csv
+- test file: fold-16-test.csv
+F2-PPS: 0.8870967741935484
+F1-PPS: 0.7586206896551724
+TPR: 1.0
+PPV: 0.6111111111111112
+classifier execution on:
+- train file: fold-17-train.csv
+- test file: fold-17-test.csv
+F2-PPS: 0.859375
+F1-PPS: 0.7096774193548387
+TPR: 1.0
+PPV: 0.55
+classifier execution on:
+- train file: fold-18-train.csv
+- test file: fold-18-test.csv
+F2-PPS: 0.873015873015873
+F1-PPS: 0.7333333333333333
+TPR: 1.0
+PPV: 0.5789473684210527
+classifier execution on:
+- train file: fold-19-train.csv
+- test file: fold-19-test.csv
+F2-PPS: 0.75
+F1-PPS: 0.6
+TPR: 0.9
+PPV: 0.45
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9016393442622951
+F1-PPS: 0.7857142857142857
+TPR: 1.0
+PPV: 0.6470588235294118
+classifier execution on:
+- train file: fold-20-train.csv
+- test file: fold-20-test.csv
+F2-PPS: 0.8064516129032258
+F1-PPS: 0.625
+TPR: 1.0
+PPV: 0.45454545454545453
+classifier execution on:
+- train file: fold-21-train.csv
+- test file: fold-21-test.csv
+F2-PPS: 0.7857142857142857
+F1-PPS: 0.5945945945945946
+TPR: 1.0
+PPV: 0.4230769230769231
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.78125
+F1-PPS: 0.6451612903225806
+TPR: 0.9090909090909091
+PPV: 0.5
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.873015873015873
+F1-PPS: 0.7333333333333333
+TPR: 1.0
+PPV: 0.5789473684210527
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.847457627118644
+F1-PPS: 0.7692307692307693
+TPR: 0.9090909090909091
+PPV: 0.6666666666666666
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.8461538461538461
+F1-PPS: 0.6875
+TPR: 1.0
+PPV: 0.5238095238095238
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.7971014492753623
+F1-PPS: 0.6111111111111112
+TPR: 1.0
+PPV: 0.44
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.8870967741935484
+F1-PPS: 0.7586206896551724
+TPR: 1.0
+PPV: 0.6111111111111112
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.8771929824561403
+F1-PPS: 0.8333333333333334
+TPR: 0.9090909090909091
+PPV: 0.7692307692307693
+
+F2-PPS: 0.8254403187298157
+F1-PPS: 0.6863158208191049
+TPR: 0.9606060606060607
+PPV: 0.5404574215487529
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8771929824561403
+F1-PPS: 0.8333333333333334
+TPR: 0.9090909090909091
+PPV: 0.7692307692307693
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.9322033898305084
+F1-PPS: 0.8461538461538461
+TPR: 1.0
+PPV: 0.7333333333333333
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.8181818181818182
+F1-PPS: 0.8181818181818182
+TPR: 0.8181818181818182
+PPV: 0.8181818181818182
+classifier execution on:
+- train file: fold-14-train.csv
+- test file: fold-14-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-15-train.csv
+- test file: fold-15-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-16-train.csv
+- test file: fold-16-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-17-train.csv
+- test file: fold-17-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-18-train.csv
+- test file: fold-18-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9090909090909091
+TPR: 0.9090909090909091
+PPV: 0.9090909090909091
+classifier execution on:
+- train file: fold-19-train.csv
+- test file: fold-19-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.782608695652174
+TPR: 0.9
+PPV: 0.6923076923076923
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-20-train.csv
+- test file: fold-20-test.csv
+F2-PPS: 0.8653846153846154
+F1-PPS: 0.8181818181818182
+TPR: 0.9
+PPV: 0.75
+classifier execution on:
+- train file: fold-21-train.csv
+- test file: fold-21-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8620689655172413
+F1-PPS: 0.8
+TPR: 0.9090909090909091
+PPV: 0.7142857142857143
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.8620689655172413
+F1-PPS: 0.8
+TPR: 0.9090909090909091
+PPV: 0.7142857142857143
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+
+F2-PPS: 0.9109180552553294
+F1-PPS: 0.8923343047566651
+TPR: 0.9255411255411256
+PPV: 0.8687154115725545
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9090909090909091
+TPR: 0.9090909090909091
+PPV: 0.9090909090909091
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.9482758620689655
+F1-PPS: 0.88
+TPR: 1.0
+PPV: 0.7857142857142857
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-14-train.csv
+- test file: fold-14-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-15-train.csv
+- test file: fold-15-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-16-train.csv
+- test file: fold-16-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-17-train.csv
+- test file: fold-17-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-18-train.csv
+- test file: fold-18-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-19-train.csv
+- test file: fold-19-test.csv
+F2-PPS: 0.8163265306122449
+F1-PPS: 0.8421052631578947
+TPR: 0.8
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-20-train.csv
+- test file: fold-20-test.csv
+F2-PPS: 0.8823529411764706
+F1-PPS: 0.8571428571428571
+TPR: 0.9
+PPV: 0.8181818181818182
+classifier execution on:
+- train file: fold-21-train.csv
+- test file: fold-21-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8035714285714286
+F1-PPS: 0.782608695652174
+TPR: 0.8181818181818182
+PPV: 0.75
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+
+F2-PPS: 0.9149474124806638
+F1-PPS: 0.9144304201120154
+TPR: 0.9164502164502165
+PPV: 0.9179769965484252
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9090909090909091
+TPR: 0.9090909090909091
+PPV: 0.9090909090909091
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-14-train.csv
+- test file: fold-14-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-15-train.csv
+- test file: fold-15-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-16-train.csv
+- test file: fold-16-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-17-train.csv
+- test file: fold-17-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-18-train.csv
+- test file: fold-18-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-19-train.csv
+- test file: fold-19-test.csv
+F2-PPS: 0.8163265306122449
+F1-PPS: 0.8421052631578947
+TPR: 0.8
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-20-train.csv
+- test file: fold-20-test.csv
+F2-PPS: 0.8
+F1-PPS: 0.8
+TPR: 0.8
+PPV: 0.8
+classifier execution on:
+- train file: fold-21-train.csv
+- test file: fold-21-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8035714285714286
+F1-PPS: 0.782608695652174
+TPR: 0.8181818181818182
+PPV: 0.75
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+
+F2-PPS: 0.9133872850681722
+F1-PPS: 0.9173940403427164
+TPR: 0.9116883116883117
+PPV: 0.9281089281089282
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9090909090909091
+TPR: 0.9090909090909091
+PPV: 0.9090909090909091
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-14-train.csv
+- test file: fold-14-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-15-train.csv
+- test file: fold-15-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-16-train.csv
+- test file: fold-16-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-17-train.csv
+- test file: fold-17-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-18-train.csv
+- test file: fold-18-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-19-train.csv
+- test file: fold-19-test.csv
+F2-PPS: 0.8163265306122449
+F1-PPS: 0.8421052631578947
+TPR: 0.8
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-20-train.csv
+- test file: fold-20-test.csv
+F2-PPS: 0.8
+F1-PPS: 0.8
+TPR: 0.8
+PPV: 0.8
+classifier execution on:
+- train file: fold-21-train.csv
+- test file: fold-21-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8035714285714286
+F1-PPS: 0.782608695652174
+TPR: 0.8181818181818182
+PPV: 0.75
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+
+F2-PPS: 0.9133872850681722
+F1-PPS: 0.9173940403427164
+TPR: 0.9116883116883117
+PPV: 0.9281089281089282
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8620689655172413
+F1-PPS: 0.8
+TPR: 0.9090909090909091
+PPV: 0.7142857142857143
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.9322033898305084
+F1-PPS: 0.8461538461538461
+TPR: 1.0
+PPV: 0.7333333333333333
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.8035714285714286
+F1-PPS: 0.782608695652174
+TPR: 0.8181818181818182
+PPV: 0.75
+classifier execution on:
+- train file: fold-14-train.csv
+- test file: fold-14-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-15-train.csv
+- test file: fold-15-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-16-train.csv
+- test file: fold-16-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-17-train.csv
+- test file: fold-17-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-18-train.csv
+- test file: fold-18-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9090909090909091
+TPR: 0.9090909090909091
+PPV: 0.9090909090909091
+classifier execution on:
+- train file: fold-19-train.csv
+- test file: fold-19-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.782608695652174
+TPR: 0.9
+PPV: 0.6923076923076923
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-20-train.csv
+- test file: fold-20-test.csv
+F2-PPS: 0.7843137254901961
+F1-PPS: 0.7619047619047619
+TPR: 0.8
+PPV: 0.7272727272727273
+classifier execution on:
+- train file: fold-21-train.csv
+- test file: fold-21-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8620689655172413
+F1-PPS: 0.8
+TPR: 0.9090909090909091
+PPV: 0.7142857142857143
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.8620689655172413
+F1-PPS: 0.8
+TPR: 0.9090909090909091
+PPV: 0.7142857142857143
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+
+F2-PPS: 0.9056416125675338
+F1-PPS: 0.8863731851309492
+TPR: 0.9207792207792208
+PPV: 0.8617699760556905
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.8695652173913043
+TPR: 0.9090909090909091
+PPV: 0.8333333333333334
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.9322033898305084
+F1-PPS: 0.8461538461538461
+TPR: 1.0
+PPV: 0.7333333333333333
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-14-train.csv
+- test file: fold-14-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-15-train.csv
+- test file: fold-15-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-16-train.csv
+- test file: fold-16-test.csv
+F2-PPS: 0.9482758620689655
+F1-PPS: 0.88
+TPR: 1.0
+PPV: 0.7857142857142857
+classifier execution on:
+- train file: fold-17-train.csv
+- test file: fold-17-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9090909090909091
+TPR: 0.9090909090909091
+PPV: 0.9090909090909091
+classifier execution on:
+- train file: fold-18-train.csv
+- test file: fold-18-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-19-train.csv
+- test file: fold-19-test.csv
+F2-PPS: 0.8
+F1-PPS: 0.8
+TPR: 0.8
+PPV: 0.8
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-20-train.csv
+- test file: fold-20-test.csv
+F2-PPS: 0.8653846153846154
+F1-PPS: 0.8181818181818182
+TPR: 0.9
+PPV: 0.75
+classifier execution on:
+- train file: fold-21-train.csv
+- test file: fold-21-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8620689655172413
+F1-PPS: 0.8
+TPR: 0.9090909090909091
+PPV: 0.7142857142857143
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9482758620689655
+F1-PPS: 0.88
+TPR: 1.0
+PPV: 0.7857142857142857
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9090909090909091
+TPR: 0.9090909090909091
+PPV: 0.9090909090909091
+
+F2-PPS: 0.9080797045062535
+F1-PPS: 0.8923529472597794
+TPR: 0.9207792207792209
+PPV: 0.8736287522001808
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-14-train.csv
+- test file: fold-14-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-15-train.csv
+- test file: fold-15-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-16-train.csv
+- test file: fold-16-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-17-train.csv
+- test file: fold-17-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-18-train.csv
+- test file: fold-18-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-19-train.csv
+- test file: fold-19-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8888888888888888
+TPR: 0.8
+PPV: 1.0
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-20-train.csv
+- test file: fold-20-test.csv
+F2-PPS: 0.8163265306122449
+F1-PPS: 0.8421052631578947
+TPR: 0.8
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-21-train.csv
+- test file: fold-21-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9090909090909091
+TPR: 0.9090909090909091
+PPV: 0.9090909090909091
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+
+F2-PPS: 0.9160327814586441
+F1-PPS: 0.9309584032859614
+TPR: 0.9073593073593074
+PPV: 0.9616254116254117
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-14-train.csv
+- test file: fold-14-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-15-train.csv
+- test file: fold-15-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-16-train.csv
+- test file: fold-16-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-17-train.csv
+- test file: fold-17-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-18-train.csv
+- test file: fold-18-test.csv
+F2-PPS: 0.7692307692307693
+F1-PPS: 0.8421052631578947
+TPR: 0.7272727272727273
+PPV: 1.0
+classifier execution on:
+- train file: fold-19-train.csv
+- test file: fold-19-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8888888888888888
+TPR: 0.8
+PPV: 1.0
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-20-train.csv
+- test file: fold-20-test.csv
+F2-PPS: 0.8163265306122449
+F1-PPS: 0.8421052631578947
+TPR: 0.8
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-21-train.csv
+- test file: fold-21-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9090909090909091
+TPR: 0.9090909090909091
+PPV: 0.9090909090909091
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+
+F2-PPS: 0.9057924976334546
+F1-PPS: 0.9254804226200106
+TPR: 0.8943722943722944
+PPV: 0.9663873163873165
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-14-train.csv
+- test file: fold-14-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-15-train.csv
+- test file: fold-15-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-16-train.csv
+- test file: fold-16-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-17-train.csv
+- test file: fold-17-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-18-train.csv
+- test file: fold-18-test.csv
+F2-PPS: 0.7692307692307693
+F1-PPS: 0.8421052631578947
+TPR: 0.7272727272727273
+PPV: 1.0
+classifier execution on:
+- train file: fold-19-train.csv
+- test file: fold-19-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8888888888888888
+TPR: 0.8
+PPV: 1.0
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-20-train.csv
+- test file: fold-20-test.csv
+F2-PPS: 0.8163265306122449
+F1-PPS: 0.8421052631578947
+TPR: 0.8
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-21-train.csv
+- test file: fold-21-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9090909090909091
+TPR: 0.9090909090909091
+PPV: 0.9090909090909091
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+
+F2-PPS: 0.9057924976334546
+F1-PPS: 0.9254804226200106
+TPR: 0.8943722943722944
+PPV: 0.9663873163873165
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8620689655172413
+F1-PPS: 0.8
+TPR: 0.9090909090909091
+PPV: 0.7142857142857143
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.9322033898305084
+F1-PPS: 0.8461538461538461
+TPR: 1.0
+PPV: 0.7333333333333333
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-14-train.csv
+- test file: fold-14-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-15-train.csv
+- test file: fold-15-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-16-train.csv
+- test file: fold-16-test.csv
+F2-PPS: 0.9482758620689655
+F1-PPS: 0.88
+TPR: 1.0
+PPV: 0.7857142857142857
+classifier execution on:
+- train file: fold-17-train.csv
+- test file: fold-17-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9090909090909091
+TPR: 0.9090909090909091
+PPV: 0.9090909090909091
+classifier execution on:
+- train file: fold-18-train.csv
+- test file: fold-18-test.csv
+F2-PPS: 0.7547169811320755
+F1-PPS: 0.8
+TPR: 0.7272727272727273
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-19-train.csv
+- test file: fold-19-test.csv
+F2-PPS: 0.8163265306122449
+F1-PPS: 0.8421052631578947
+TPR: 0.8
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-20-train.csv
+- test file: fold-20-test.csv
+F2-PPS: 0.8653846153846154
+F1-PPS: 0.8181818181818182
+TPR: 0.9
+PPV: 0.75
+classifier execution on:
+- train file: fold-21-train.csv
+- test file: fold-21-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8771929824561403
+F1-PPS: 0.8333333333333334
+TPR: 0.9090909090909091
+PPV: 0.7692307692307693
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9482758620689655
+F1-PPS: 0.88
+TPR: 1.0
+PPV: 0.7857142857142857
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9090909090909091
+TPR: 0.9090909090909091
+PPV: 0.9090909090909091
+
+F2-PPS: 0.9087154506264994
+F1-PPS: 0.8940769778331072
+TPR: 0.9207792207792209
+PPV: 0.8776377062091347
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.8695652173913043
+TPR: 0.9090909090909091
+PPV: 0.8333333333333334
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-14-train.csv
+- test file: fold-14-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-15-train.csv
+- test file: fold-15-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-16-train.csv
+- test file: fold-16-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-17-train.csv
+- test file: fold-17-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-18-train.csv
+- test file: fold-18-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-19-train.csv
+- test file: fold-19-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8888888888888888
+TPR: 0.8
+PPV: 1.0
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-20-train.csv
+- test file: fold-20-test.csv
+F2-PPS: 0.8163265306122449
+F1-PPS: 0.8421052631578947
+TPR: 0.8
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-21-train.csv
+- test file: fold-21-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.6862745098039216
+F1-PPS: 0.7777777777777778
+TPR: 0.6363636363636364
+PPV: 1.0
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9090909090909091
+TPR: 0.9090909090909091
+PPV: 0.9090909090909091
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9090909090909091
+TPR: 0.9090909090909091
+PPV: 0.9090909090909091
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+
+F2-PPS: 0.8998861974735543
+F1-PPS: 0.910999572147006
+TPR: 0.8943722943722945
+PPV: 0.9386761386761387
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-14-train.csv
+- test file: fold-14-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-15-train.csv
+- test file: fold-15-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-16-train.csv
+- test file: fold-16-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-17-train.csv
+- test file: fold-17-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-18-train.csv
+- test file: fold-18-test.csv
+F2-PPS: 0.7692307692307693
+F1-PPS: 0.8421052631578947
+TPR: 0.7272727272727273
+PPV: 1.0
+classifier execution on:
+- train file: fold-19-train.csv
+- test file: fold-19-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8888888888888888
+TPR: 0.8
+PPV: 1.0
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-20-train.csv
+- test file: fold-20-test.csv
+F2-PPS: 0.8163265306122449
+F1-PPS: 0.8421052631578947
+TPR: 0.8
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-21-train.csv
+- test file: fold-21-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.7692307692307693
+F1-PPS: 0.8421052631578947
+TPR: 0.7272727272727273
+PPV: 1.0
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9090909090909091
+TPR: 0.9090909090909091
+PPV: 0.9090909090909091
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+
+F2-PPS: 0.9056517113291462
+F1-PPS: 0.9252178614551939
+TPR: 0.8943722943722945
+PPV: 0.9663873163873165
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-14-train.csv
+- test file: fold-14-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-15-train.csv
+- test file: fold-15-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-16-train.csv
+- test file: fold-16-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-17-train.csv
+- test file: fold-17-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-18-train.csv
+- test file: fold-18-test.csv
+F2-PPS: 0.7692307692307693
+F1-PPS: 0.8421052631578947
+TPR: 0.7272727272727273
+PPV: 1.0
+classifier execution on:
+- train file: fold-19-train.csv
+- test file: fold-19-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8888888888888888
+TPR: 0.8
+PPV: 1.0
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-20-train.csv
+- test file: fold-20-test.csv
+F2-PPS: 0.8163265306122449
+F1-PPS: 0.8421052631578947
+TPR: 0.8
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-21-train.csv
+- test file: fold-21-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9090909090909091
+TPR: 0.9090909090909091
+PPV: 0.9090909090909091
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+
+F2-PPS: 0.9057924976334546
+F1-PPS: 0.9254804226200106
+TPR: 0.8943722943722944
+PPV: 0.9663873163873165
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.9649122807017544
+F1-PPS: 0.9166666666666666
+TPR: 1.0
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-14-train.csv
+- test file: fold-14-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-15-train.csv
+- test file: fold-15-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-16-train.csv
+- test file: fold-16-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-17-train.csv
+- test file: fold-17-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-18-train.csv
+- test file: fold-18-test.csv
+F2-PPS: 0.7692307692307693
+F1-PPS: 0.8421052631578947
+TPR: 0.7272727272727273
+PPV: 1.0
+classifier execution on:
+- train file: fold-19-train.csv
+- test file: fold-19-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8888888888888888
+TPR: 0.8
+PPV: 1.0
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-20-train.csv
+- test file: fold-20-test.csv
+F2-PPS: 0.8163265306122449
+F1-PPS: 0.8421052631578947
+TPR: 0.8
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-21-train.csv
+- test file: fold-21-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8571428571428571
+TPR: 0.8181818181818182
+PPV: 0.9
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8490566037735849
+F1-PPS: 0.9
+TPR: 0.8181818181818182
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9821428571428571
+F1-PPS: 0.9565217391304348
+TPR: 1.0
+PPV: 0.9166666666666666
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9090909090909091
+TPR: 0.9090909090909091
+PPV: 0.9090909090909091
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9259259259259259
+F1-PPS: 0.9523809523809523
+TPR: 0.9090909090909091
+PPV: 1.0
+
+F2-PPS: 0.9057924976334546
+F1-PPS: 0.9254804226200106
+TPR: 0.8943722943722944
+PPV: 0.9663873163873165
+
+k-fold-5
+
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8723404255319149
+F1-PPS: 0.82
+TPR: 0.9111111111111111
+PPV: 0.7454545454545455
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8677685950413223
+F1-PPS: 0.8076923076923077
+TPR: 0.9130434782608695
+PPV: 0.7241379310344828
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8677685950413223
+F1-PPS: 0.8076923076923077
+TPR: 0.9130434782608695
+PPV: 0.7241379310344828
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9053497942386831
+F1-PPS: 0.8380952380952381
+TPR: 0.9565217391304348
+PPV: 0.7457627118644068
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8471074380165289
+F1-PPS: 0.7884615384615384
+TPR: 0.8913043478260869
+PPV: 0.7068965517241379
+
+F2-PPS: 0.8720669695739544
+F1-PPS: 0.8123882783882784
+TPR: 0.9170048309178744
+PPV: 0.7292779342224112
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8695652173913043
+F1-PPS: 0.8421052631578947
+TPR: 0.8888888888888888
+PPV: 0.8
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9322033898305084
+F1-PPS: 0.8979591836734694
+TPR: 0.9565217391304348
+PPV: 0.8461538461538461
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9188034188034188
+F1-PPS: 0.8958333333333334
+TPR: 0.9347826086956522
+PPV: 0.86
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9227467811158798
+F1-PPS: 0.9052631578947369
+TPR: 0.9347826086956522
+PPV: 0.8775510204081632
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8723404255319149
+F1-PPS: 0.845360824742268
+TPR: 0.8913043478260869
+PPV: 0.803921568627451
+
+F2-PPS: 0.9031318465346052
+F1-PPS: 0.8773043525603406
+TPR: 0.9212560386473431
+PPV: 0.8375252870378921
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8705357142857143
+F1-PPS: 0.8764044943820225
+TPR: 0.8666666666666667
+PPV: 0.8863636363636364
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.974025974025974
+F1-PPS: 0.967741935483871
+TPR: 0.9782608695652174
+PPV: 0.9574468085106383
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9347826086956522
+F1-PPS: 0.9347826086956522
+TPR: 0.9347826086956522
+PPV: 0.9347826086956522
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9307359307359307
+F1-PPS: 0.9247311827956989
+TPR: 0.9347826086956522
+PPV: 0.9148936170212766
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8407079646017699
+F1-PPS: 0.8636363636363636
+TPR: 0.8260869565217391
+PPV: 0.9047619047619048
+
+F2-PPS: 0.9101576384690082
+F1-PPS: 0.9134593169987216
+TPR: 0.9081159420289856
+PPV: 0.9196497150706217
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.852017937219731
+F1-PPS: 0.8636363636363636
+TPR: 0.8444444444444444
+PPV: 0.8837209302325582
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.974025974025974
+F1-PPS: 0.967741935483871
+TPR: 0.9782608695652174
+PPV: 0.9574468085106383
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9388646288209607
+F1-PPS: 0.945054945054945
+TPR: 0.9347826086956522
+PPV: 0.9555555555555556
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9347826086956522
+F1-PPS: 0.9347826086956522
+TPR: 0.9347826086956522
+PPV: 0.9347826086956522
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8444444444444444
+F1-PPS: 0.8735632183908046
+TPR: 0.8260869565217391
+PPV: 0.926829268292683
+
+F2-PPS: 0.9088271186413526
+F1-PPS: 0.9169558142523273
+TPR: 0.9036714975845411
+PPV: 0.9316670342574176
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.852017937219731
+F1-PPS: 0.8636363636363636
+TPR: 0.8444444444444444
+PPV: 0.8837209302325582
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.974025974025974
+F1-PPS: 0.967741935483871
+TPR: 0.9782608695652174
+PPV: 0.9574468085106383
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9388646288209607
+F1-PPS: 0.945054945054945
+TPR: 0.9347826086956522
+PPV: 0.9555555555555556
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9347826086956522
+F1-PPS: 0.9347826086956522
+TPR: 0.9347826086956522
+PPV: 0.9347826086956522
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8444444444444444
+F1-PPS: 0.8735632183908046
+TPR: 0.8260869565217391
+PPV: 0.926829268292683
+
+F2-PPS: 0.9088271186413526
+F1-PPS: 0.9169558142523273
+TPR: 0.9036714975845411
+PPV: 0.9316670342574176
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8874458874458875
+F1-PPS: 0.8541666666666666
+TPR: 0.9111111111111111
+PPV: 0.803921568627451
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9282700421940928
+F1-PPS: 0.8888888888888888
+TPR: 0.9565217391304348
+PPV: 0.8301886792452831
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9188034188034188
+F1-PPS: 0.8958333333333334
+TPR: 0.9347826086956522
+PPV: 0.86
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9227467811158798
+F1-PPS: 0.9052631578947369
+TPR: 0.9347826086956522
+PPV: 0.8775510204081632
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8723404255319149
+F1-PPS: 0.845360824742268
+TPR: 0.8913043478260869
+PPV: 0.803921568627451
+
+F2-PPS: 0.9059213110182387
+F1-PPS: 0.8779025743051788
+TPR: 0.9257004830917875
+PPV: 0.8351165673816696
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8590308370044053
+F1-PPS: 0.8478260869565217
+TPR: 0.8666666666666667
+PPV: 0.8297872340425532
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9493670886075949
+F1-PPS: 0.9090909090909091
+TPR: 0.9782608695652174
+PPV: 0.8490566037735849
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9401709401709402
+F1-PPS: 0.9166666666666666
+TPR: 0.9565217391304348
+PPV: 0.88
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9188034188034188
+F1-PPS: 0.8958333333333334
+TPR: 0.9347826086956522
+PPV: 0.86
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8733624454148472
+F1-PPS: 0.8791208791208791
+TPR: 0.8695652173913043
+PPV: 0.8888888888888888
+
+F2-PPS: 0.9081469460002412
+F1-PPS: 0.8897075750336618
+TPR: 0.9211594202898551
+PPV: 0.8615465453410053
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8447488584474886
+F1-PPS: 0.8809523809523809
+TPR: 0.8222222222222222
+PPV: 0.9487179487179487
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.974025974025974
+F1-PPS: 0.967741935483871
+TPR: 0.9782608695652174
+PPV: 0.9574468085106383
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9210526315789473
+F1-PPS: 0.9333333333333333
+TPR: 0.9130434782608695
+PPV: 0.9545454545454546
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9030837004405287
+F1-PPS: 0.9213483146067416
+TPR: 0.8913043478260869
+PPV: 0.9534883720930233
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.852017937219731
+F1-PPS: 0.8941176470588236
+TPR: 0.8260869565217391
+PPV: 0.9743589743589743
+
+F2-PPS: 0.8989858203425338
+F1-PPS: 0.9194987222870301
+TPR: 0.886183574879227
+PPV: 0.9577115116452077
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8447488584474886
+F1-PPS: 0.8809523809523809
+TPR: 0.8222222222222222
+PPV: 0.9487179487179487
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.974025974025974
+F1-PPS: 0.967741935483871
+TPR: 0.9782608695652174
+PPV: 0.9574468085106383
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9210526315789473
+F1-PPS: 0.9333333333333333
+TPR: 0.9130434782608695
+PPV: 0.9545454545454546
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8849557522123894
+F1-PPS: 0.9090909090909091
+TPR: 0.8695652173913043
+PPV: 0.9523809523809523
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8558558558558559
+F1-PPS: 0.9047619047619048
+TPR: 0.8260869565217391
+PPV: 1.0
+
+F2-PPS: 0.896127814424131
+F1-PPS: 0.9191760927244799
+TPR: 0.8818357487922706
+PPV: 0.9626182328309987
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8447488584474886
+F1-PPS: 0.8809523809523809
+TPR: 0.8222222222222222
+PPV: 0.9487179487179487
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.974025974025974
+F1-PPS: 0.967741935483871
+TPR: 0.9782608695652174
+PPV: 0.9574468085106383
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9210526315789473
+F1-PPS: 0.9333333333333333
+TPR: 0.9130434782608695
+PPV: 0.9545454545454546
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8849557522123894
+F1-PPS: 0.9090909090909091
+TPR: 0.8695652173913043
+PPV: 0.9523809523809523
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8558558558558559
+F1-PPS: 0.9047619047619048
+TPR: 0.8260869565217391
+PPV: 1.0
+
+F2-PPS: 0.896127814424131
+F1-PPS: 0.9191760927244799
+TPR: 0.8818357487922706
+PPV: 0.9626182328309987
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.851528384279476
+F1-PPS: 0.8297872340425532
+TPR: 0.8666666666666667
+PPV: 0.7959183673469388
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9453781512605042
+F1-PPS: 0.9
+TPR: 0.9782608695652174
+PPV: 0.8333333333333334
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9574468085106383
+F1-PPS: 0.9278350515463918
+TPR: 0.9782608695652174
+PPV: 0.8823529411764706
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9188034188034188
+F1-PPS: 0.8958333333333334
+TPR: 0.9347826086956522
+PPV: 0.86
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.851528384279476
+F1-PPS: 0.8571428571428571
+TPR: 0.8478260869565217
+PPV: 0.8666666666666667
+
+F2-PPS: 0.9049370294267026
+F1-PPS: 0.8821196952130272
+TPR: 0.9211594202898551
+PPV: 0.8476542617046817
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.821917808219178
+F1-PPS: 0.8571428571428571
+TPR: 0.8
+PPV: 0.9230769230769231
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.9615384615384616
+F1-PPS: 0.9375
+TPR: 0.9782608695652174
+PPV: 0.9
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9267241379310345
+F1-PPS: 0.9148936170212766
+TPR: 0.9347826086956522
+PPV: 0.8958333333333334
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8991228070175439
+F1-PPS: 0.9111111111111111
+TPR: 0.8913043478260869
+PPV: 0.9318181818181818
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8666666666666667
+F1-PPS: 0.896551724137931
+TPR: 0.8478260869565217
+PPV: 0.9512195121951219
+
+F2-PPS: 0.895193976274577
+F1-PPS: 0.9034398618826351
+TPR: 0.8904347826086957
+PPV: 0.9203895900847121
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8447488584474886
+F1-PPS: 0.8809523809523809
+TPR: 0.8222222222222222
+PPV: 0.9487179487179487
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.974025974025974
+F1-PPS: 0.967741935483871
+TPR: 0.9782608695652174
+PPV: 0.9574468085106383
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9210526315789473
+F1-PPS: 0.9333333333333333
+TPR: 0.9130434782608695
+PPV: 0.9545454545454546
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9030837004405287
+F1-PPS: 0.9213483146067416
+TPR: 0.8913043478260869
+PPV: 0.9534883720930233
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.852017937219731
+F1-PPS: 0.8941176470588236
+TPR: 0.8260869565217391
+PPV: 0.9743589743589743
+
+F2-PPS: 0.8989858203425338
+F1-PPS: 0.9194987222870301
+TPR: 0.886183574879227
+PPV: 0.9577115116452077
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8447488584474886
+F1-PPS: 0.8809523809523809
+TPR: 0.8222222222222222
+PPV: 0.9487179487179487
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.974025974025974
+F1-PPS: 0.967741935483871
+TPR: 0.9782608695652174
+PPV: 0.9574468085106383
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9210526315789473
+F1-PPS: 0.9333333333333333
+TPR: 0.9130434782608695
+PPV: 0.9545454545454546
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8849557522123894
+F1-PPS: 0.9090909090909091
+TPR: 0.8695652173913043
+PPV: 0.9523809523809523
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8558558558558559
+F1-PPS: 0.9047619047619048
+TPR: 0.8260869565217391
+PPV: 1.0
+
+F2-PPS: 0.896127814424131
+F1-PPS: 0.9191760927244799
+TPR: 0.8818357487922706
+PPV: 0.9626182328309987
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8447488584474886
+F1-PPS: 0.8809523809523809
+TPR: 0.8222222222222222
+PPV: 0.9487179487179487
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.974025974025974
+F1-PPS: 0.967741935483871
+TPR: 0.9782608695652174
+PPV: 0.9574468085106383
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9210526315789473
+F1-PPS: 0.9333333333333333
+TPR: 0.9130434782608695
+PPV: 0.9545454545454546
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8849557522123894
+F1-PPS: 0.9090909090909091
+TPR: 0.8695652173913043
+PPV: 0.9523809523809523
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8558558558558559
+F1-PPS: 0.9047619047619048
+TPR: 0.8260869565217391
+PPV: 1.0
+
+F2-PPS: 0.896127814424131
+F1-PPS: 0.9191760927244799
+TPR: 0.8818357487922706
+PPV: 0.9626182328309987
+
+k-fold-8
+
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8783783783783784
+F1-PPS: 0.8125
+TPR: 0.9285714285714286
+PPV: 0.7222222222222222
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8620689655172413
+F1-PPS: 0.819672131147541
+TPR: 0.8928571428571429
+PPV: 0.7575757575757576
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.691358024691358
+TPR: 0.9655172413793104
+PPV: 0.5384615384615384
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.8598726114649682
+F1-PPS: 0.7714285714285715
+TPR: 0.9310344827586207
+PPV: 0.6585365853658537
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8552631578947368
+F1-PPS: 0.8
+TPR: 0.896551724137931
+PPV: 0.7222222222222222
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.89171974522293
+F1-PPS: 0.8
+TPR: 0.9655172413793104
+PPV: 0.6829268292682927
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.7936507936507936
+TPR: 0.8620689655172413
+PPV: 0.7352941176470589
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.8609271523178808
+F1-PPS: 0.7761194029850746
+TPR: 0.9285714285714286
+PPV: 0.6666666666666666
+
+F2-PPS: 0.8593620846828502
+F1-PPS: 0.7830911154879173
+TPR: 0.9213362068965518
+PPV: 0.6854882424287015
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9154929577464789
+F1-PPS: 0.896551724137931
+TPR: 0.9285714285714286
+PPV: 0.8666666666666667
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8571428571428571
+F1-PPS: 0.8571428571428571
+TPR: 0.8571428571428571
+PPV: 0.8571428571428571
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9333333333333333
+F1-PPS: 0.8888888888888888
+TPR: 0.9655172413793104
+PPV: 0.8235294117647058
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9121621621621622
+F1-PPS: 0.8852459016393442
+TPR: 0.9310344827586207
+PPV: 0.84375
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9246575342465754
+F1-PPS: 0.9152542372881356
+TPR: 0.9310344827586207
+PPV: 0.9
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9183673469387755
+F1-PPS: 0.9
+TPR: 0.9310344827586207
+PPV: 0.8709677419354839
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.8843537414965986
+F1-PPS: 0.8666666666666667
+TPR: 0.896551724137931
+PPV: 0.8387096774193549
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9027777777777778
+F1-PPS: 0.8666666666666667
+TPR: 0.9285714285714286
+PPV: 0.8125
+
+F2-PPS: 0.9060359638555698
+F1-PPS: 0.8845521178038114
+TPR: 0.9211822660098522
+PPV: 0.8516582943661335
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9285714285714286
+F1-PPS: 0.9285714285714286
+TPR: 0.9285714285714286
+PPV: 0.9285714285714286
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8518518518518519
+TPR: 0.8214285714285714
+PPV: 0.8846153846153846
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9863945578231292
+F1-PPS: 0.9666666666666667
+TPR: 1.0
+PPV: 0.9354838709677419
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9183673469387755
+F1-PPS: 0.9
+TPR: 0.9310344827586207
+PPV: 0.8709677419354839
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9310344827586207
+F1-PPS: 0.9310344827586207
+TPR: 0.9310344827586207
+PPV: 0.9310344827586207
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9183673469387755
+F1-PPS: 0.9
+TPR: 0.9310344827586207
+PPV: 0.8709677419354839
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9285714285714286
+TPR: 0.896551724137931
+PPV: 0.9629629629629629
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.8928571428571429
+TPR: 0.8928571428571429
+PPV: 0.8928571428571429
+
+F2-PPS: 0.9147520685390143
+F1-PPS: 0.9124441251596425
+TPR: 0.916564039408867
+PPV: 0.9096825945755311
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9285714285714286
+F1-PPS: 0.9285714285714286
+TPR: 0.9285714285714286
+PPV: 0.9285714285714286
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8518518518518519
+TPR: 0.8214285714285714
+PPV: 0.8846153846153846
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9863945578231292
+F1-PPS: 0.9666666666666667
+TPR: 1.0
+PPV: 0.9354838709677419
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9246575342465754
+F1-PPS: 0.9152542372881356
+TPR: 0.9310344827586207
+PPV: 0.9
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9375
+F1-PPS: 0.9473684210526315
+TPR: 0.9310344827586207
+PPV: 0.9642857142857143
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9246575342465754
+F1-PPS: 0.9152542372881356
+TPR: 0.9310344827586207
+PPV: 0.9
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9285714285714286
+TPR: 0.896551724137931
+PPV: 0.9629629629629629
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.8928571428571429
+TPR: 0.8928571428571429
+PPV: 0.8928571428571429
+
+F2-PPS: 0.9171328050211367
+F1-PPS: 0.9182994267684277
+TPR: 0.916564039408867
+PPV: 0.9210970630325469
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9285714285714286
+F1-PPS: 0.9285714285714286
+TPR: 0.9285714285714286
+PPV: 0.9285714285714286
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8518518518518519
+TPR: 0.8214285714285714
+PPV: 0.8846153846153846
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9863945578231292
+F1-PPS: 0.9666666666666667
+TPR: 1.0
+PPV: 0.9354838709677419
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9246575342465754
+F1-PPS: 0.9152542372881356
+TPR: 0.9310344827586207
+PPV: 0.9
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9375
+F1-PPS: 0.9473684210526315
+TPR: 0.9310344827586207
+PPV: 0.9642857142857143
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9246575342465754
+F1-PPS: 0.9152542372881356
+TPR: 0.9310344827586207
+PPV: 0.9
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9285714285714286
+TPR: 0.896551724137931
+PPV: 0.9629629629629629
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.8928571428571429
+TPR: 0.8928571428571429
+PPV: 0.8928571428571429
+
+F2-PPS: 0.9171328050211367
+F1-PPS: 0.9182994267684277
+TPR: 0.916564039408867
+PPV: 0.9210970630325469
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8865248226950354
+F1-PPS: 0.8771929824561403
+TPR: 0.8928571428571429
+PPV: 0.8620689655172413
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8865248226950354
+F1-PPS: 0.8771929824561403
+TPR: 0.8928571428571429
+PPV: 0.8620689655172413
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9333333333333333
+F1-PPS: 0.8888888888888888
+TPR: 0.9655172413793104
+PPV: 0.8235294117647058
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9121621621621622
+F1-PPS: 0.8852459016393442
+TPR: 0.9310344827586207
+PPV: 0.84375
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9246575342465754
+F1-PPS: 0.9152542372881356
+TPR: 0.9310344827586207
+PPV: 0.9
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9183673469387755
+F1-PPS: 0.9
+TPR: 0.9310344827586207
+PPV: 0.8709677419354839
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.8843537414965986
+F1-PPS: 0.8666666666666667
+TPR: 0.896551724137931
+PPV: 0.8387096774193549
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.8813559322033898
+TPR: 0.9285714285714286
+PPV: 0.8387096774193549
+
+F2-PPS: 0.9068768340823031
+F1-PPS: 0.8864746989498382
+TPR: 0.9211822660098523
+PPV: 0.8549755549466728
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9154929577464789
+F1-PPS: 0.896551724137931
+TPR: 0.9285714285714286
+PPV: 0.8666666666666667
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8633093525179856
+F1-PPS: 0.8727272727272727
+TPR: 0.8571428571428571
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9863945578231292
+F1-PPS: 0.9666666666666667
+TPR: 1.0
+PPV: 0.9354838709677419
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9060402684563759
+F1-PPS: 0.8709677419354839
+TPR: 0.9310344827586207
+PPV: 0.8181818181818182
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.958904109589041
+F1-PPS: 0.9491525423728814
+TPR: 0.9655172413793104
+PPV: 0.9333333333333333
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9183673469387755
+F1-PPS: 0.9
+TPR: 0.9310344827586207
+PPV: 0.8709677419354839
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.8904109589041096
+F1-PPS: 0.8813559322033898
+TPR: 0.896551724137931
+PPV: 0.8666666666666667
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.8928571428571429
+TPR: 0.8928571428571429
+PPV: 0.8928571428571429
+
+F2-PPS: 0.9164720868541298
+F1-PPS: 0.9037848778625961
+TPR: 0.9253386699507389
+PPV: 0.8841307661872178
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.935251798561151
+F1-PPS: 0.9454545454545454
+TPR: 0.9285714285714286
+PPV: 0.9629629629629629
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8148148148148148
+F1-PPS: 0.8627450980392157
+TPR: 0.7857142857142857
+PPV: 0.9565217391304348
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.958904109589041
+F1-PPS: 0.9491525423728814
+TPR: 0.9655172413793104
+PPV: 0.9333333333333333
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9246575342465754
+F1-PPS: 0.9152542372881356
+TPR: 0.9310344827586207
+PPV: 0.9
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9440559440559441
+F1-PPS: 0.9642857142857143
+TPR: 0.9310344827586207
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9310344827586207
+F1-PPS: 0.9310344827586207
+TPR: 0.9310344827586207
+PPV: 0.9310344827586207
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.851063829787234
+F1-PPS: 0.8888888888888888
+TPR: 0.8275862068965517
+PPV: 0.96
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.8759124087591241
+F1-PPS: 0.9056603773584906
+TPR: 0.8571428571428571
+PPV: 0.96
+
+F2-PPS: 0.9044618653215633
+F1-PPS: 0.9203094858058115
+TPR: 0.8947044334975369
+PPV: 0.950481564773169
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.935251798561151
+F1-PPS: 0.9454545454545454
+TPR: 0.9285714285714286
+PPV: 0.9629629629629629
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8148148148148148
+F1-PPS: 0.8627450980392157
+TPR: 0.7857142857142857
+PPV: 0.9565217391304348
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.958904109589041
+F1-PPS: 0.9491525423728814
+TPR: 0.9655172413793104
+PPV: 0.9333333333333333
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9246575342465754
+F1-PPS: 0.9152542372881356
+TPR: 0.9310344827586207
+PPV: 0.9
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9154929577464789
+F1-PPS: 0.9454545454545454
+TPR: 0.896551724137931
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9310344827586207
+F1-PPS: 0.9310344827586207
+TPR: 0.9310344827586207
+PPV: 0.9310344827586207
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.8571428571428571
+F1-PPS: 0.9056603773584906
+TPR: 0.8275862068965517
+PPV: 1.0
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.8759124087591241
+F1-PPS: 0.9056603773584906
+TPR: 0.8571428571428571
+PPV: 0.96
+
+F2-PPS: 0.9016513704523329
+F1-PPS: 0.9200520257606156
+TPR: 0.8903940886699507
+PPV: 0.9554815647731689
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.935251798561151
+F1-PPS: 0.9454545454545454
+TPR: 0.9285714285714286
+PPV: 0.9629629629629629
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8148148148148148
+F1-PPS: 0.8627450980392157
+TPR: 0.7857142857142857
+PPV: 0.9565217391304348
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.958904109589041
+F1-PPS: 0.9491525423728814
+TPR: 0.9655172413793104
+PPV: 0.9333333333333333
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9246575342465754
+F1-PPS: 0.9152542372881356
+TPR: 0.9310344827586207
+PPV: 0.9
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9154929577464789
+F1-PPS: 0.9454545454545454
+TPR: 0.896551724137931
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9310344827586207
+F1-PPS: 0.9310344827586207
+TPR: 0.9310344827586207
+PPV: 0.9310344827586207
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.8571428571428571
+F1-PPS: 0.9056603773584906
+TPR: 0.8275862068965517
+PPV: 1.0
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.8759124087591241
+F1-PPS: 0.9056603773584906
+TPR: 0.8571428571428571
+PPV: 0.96
+
+F2-PPS: 0.9016513704523329
+F1-PPS: 0.9200520257606156
+TPR: 0.8903940886699507
+PPV: 0.9554815647731689
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9154929577464789
+F1-PPS: 0.896551724137931
+TPR: 0.9285714285714286
+PPV: 0.8666666666666667
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8571428571428571
+F1-PPS: 0.8571428571428571
+TPR: 0.8571428571428571
+PPV: 0.8571428571428571
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9731543624161074
+F1-PPS: 0.9354838709677419
+TPR: 1.0
+PPV: 0.8787878787878788
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9271523178807947
+F1-PPS: 0.875
+TPR: 0.9655172413793104
+PPV: 0.8
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9310344827586207
+F1-PPS: 0.9310344827586207
+TPR: 0.9310344827586207
+PPV: 0.9310344827586207
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9121621621621622
+F1-PPS: 0.8852459016393442
+TPR: 0.9310344827586207
+PPV: 0.84375
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.8904109589041096
+F1-PPS: 0.8813559322033898
+TPR: 0.896551724137931
+PPV: 0.8666666666666667
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.8928571428571429
+TPR: 0.8928571428571429
+PPV: 0.8928571428571429
+
+F2-PPS: 0.9124259052335342
+F1-PPS: 0.8943339889633785
+TPR: 0.9253386699507389
+PPV: 0.8671132118599791
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9057971014492754
+F1-PPS: 0.9259259259259259
+TPR: 0.8928571428571429
+PPV: 0.9615384615384616
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8208955223880597
+F1-PPS: 0.88
+TPR: 0.7857142857142857
+PPV: 1.0
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.9523809523809523
+F1-PPS: 0.9333333333333333
+TPR: 0.9655172413793104
+PPV: 0.9032258064516129
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9523809523809523
+F1-PPS: 0.9333333333333333
+TPR: 0.9655172413793104
+PPV: 0.9032258064516129
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9375
+F1-PPS: 0.9473684210526315
+TPR: 0.9310344827586207
+PPV: 0.9642857142857143
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9027777777777778
+F1-PPS: 0.9122807017543859
+TPR: 0.896551724137931
+PPV: 0.9285714285714286
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.851063829787234
+F1-PPS: 0.8888888888888888
+TPR: 0.8275862068965517
+PPV: 0.96
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.8992805755395683
+F1-PPS: 0.9090909090909091
+TPR: 0.8928571428571429
+PPV: 0.9259259259259259
+
+F2-PPS: 0.9027595889629775
+F1-PPS: 0.916277689172426
+TPR: 0.8947044334975369
+PPV: 0.9433466429030946
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.935251798561151
+F1-PPS: 0.9454545454545454
+TPR: 0.9285714285714286
+PPV: 0.9629629629629629
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8148148148148148
+F1-PPS: 0.8627450980392157
+TPR: 0.7857142857142857
+PPV: 0.9565217391304348
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.958904109589041
+F1-PPS: 0.9491525423728814
+TPR: 0.9655172413793104
+PPV: 0.9333333333333333
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9246575342465754
+F1-PPS: 0.9152542372881356
+TPR: 0.9310344827586207
+PPV: 0.9
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9440559440559441
+F1-PPS: 0.9642857142857143
+TPR: 0.9310344827586207
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9310344827586207
+F1-PPS: 0.9310344827586207
+TPR: 0.9310344827586207
+PPV: 0.9310344827586207
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.851063829787234
+F1-PPS: 0.8888888888888888
+TPR: 0.8275862068965517
+PPV: 0.96
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.8759124087591241
+F1-PPS: 0.9056603773584906
+TPR: 0.8571428571428571
+PPV: 0.96
+
+F2-PPS: 0.9044618653215633
+F1-PPS: 0.9203094858058115
+TPR: 0.8947044334975369
+PPV: 0.950481564773169
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.935251798561151
+F1-PPS: 0.9454545454545454
+TPR: 0.9285714285714286
+PPV: 0.9629629629629629
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8148148148148148
+F1-PPS: 0.8627450980392157
+TPR: 0.7857142857142857
+PPV: 0.9565217391304348
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.958904109589041
+F1-PPS: 0.9491525423728814
+TPR: 0.9655172413793104
+PPV: 0.9333333333333333
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9246575342465754
+F1-PPS: 0.9152542372881356
+TPR: 0.9310344827586207
+PPV: 0.9
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9154929577464789
+F1-PPS: 0.9454545454545454
+TPR: 0.896551724137931
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9310344827586207
+F1-PPS: 0.9310344827586207
+TPR: 0.9310344827586207
+PPV: 0.9310344827586207
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.8571428571428571
+F1-PPS: 0.9056603773584906
+TPR: 0.8275862068965517
+PPV: 1.0
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.8759124087591241
+F1-PPS: 0.9056603773584906
+TPR: 0.8571428571428571
+PPV: 0.96
+
+F2-PPS: 0.9016513704523329
+F1-PPS: 0.9200520257606156
+TPR: 0.8903940886699507
+PPV: 0.9554815647731689
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.935251798561151
+F1-PPS: 0.9454545454545454
+TPR: 0.9285714285714286
+PPV: 0.9629629629629629
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8148148148148148
+F1-PPS: 0.8627450980392157
+TPR: 0.7857142857142857
+PPV: 0.9565217391304348
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.958904109589041
+F1-PPS: 0.9491525423728814
+TPR: 0.9655172413793104
+PPV: 0.9333333333333333
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9246575342465754
+F1-PPS: 0.9152542372881356
+TPR: 0.9310344827586207
+PPV: 0.9
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9154929577464789
+F1-PPS: 0.9454545454545454
+TPR: 0.896551724137931
+PPV: 1.0
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9310344827586207
+F1-PPS: 0.9310344827586207
+TPR: 0.9310344827586207
+PPV: 0.9310344827586207
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.8571428571428571
+F1-PPS: 0.9056603773584906
+TPR: 0.8275862068965517
+PPV: 1.0
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.8759124087591241
+F1-PPS: 0.9056603773584906
+TPR: 0.8571428571428571
+PPV: 0.96
+
+F2-PPS: 0.9016513704523329
+F1-PPS: 0.9200520257606156
+TPR: 0.8903940886699507
+PPV: 0.9554815647731689
+
+k-fold-13
+
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.7083333333333334
+TPR: 0.9444444444444444
+PPV: 0.5666666666666667
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.8695652173913043
+F1-PPS: 0.7804878048780488
+TPR: 0.9411764705882353
+PPV: 0.6666666666666666
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.8947368421052632
+F1-PPS: 0.7727272727272727
+TPR: 1.0
+PPV: 0.6296296296296297
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.794392523364486
+F1-PPS: 0.6415094339622641
+TPR: 0.9444444444444444
+PPV: 0.4857142857142857
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.9
+F1-PPS: 0.782608695652174
+TPR: 1.0
+PPV: 0.6428571428571429
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8673469387755102
+F1-PPS: 0.7727272727272727
+TPR: 0.9444444444444444
+PPV: 0.6538461538461539
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8602150537634409
+F1-PPS: 0.8205128205128205
+TPR: 0.8888888888888888
+PPV: 0.7619047619047619
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9278350515463918
+F1-PPS: 0.8372093023255814
+TPR: 1.0
+PPV: 0.72
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.8181818181818182
+F1-PPS: 0.6428571428571429
+TPR: 1.0
+PPV: 0.47368421052631576
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.8018867924528302
+F1-PPS: 0.6538461538461539
+TPR: 0.9444444444444444
+PPV: 0.5
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.8695652173913043
+F1-PPS: 0.7804878048780488
+TPR: 0.9411764705882353
+PPV: 0.6666666666666666
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.8695652173913043
+F1-PPS: 0.7804878048780488
+TPR: 0.9411764705882353
+PPV: 0.6666666666666666
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.8791208791208791
+F1-PPS: 0.8
+TPR: 0.9411764705882353
+PPV: 0.6956521739130435
+
+F2-PPS: 0.860441914216759
+F1-PPS: 0.7518303725060126
+TPR: 0.9562594268476622
+PPV: 0.6253811557736924
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9239130434782609
+F1-PPS: 0.8947368421052632
+TPR: 0.9444444444444444
+PPV: 0.85
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.8823529411764706
+F1-PPS: 0.8823529411764706
+TPR: 0.8823529411764706
+PPV: 0.8823529411764706
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.9090909090909091
+TPR: 0.8823529411764706
+PPV: 0.9375
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.7608695652173914
+F1-PPS: 0.7368421052631579
+TPR: 0.7777777777777778
+PPV: 0.7
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.967741935483871
+F1-PPS: 0.9230769230769231
+TPR: 1.0
+PPV: 0.8571428571428571
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8791208791208791
+F1-PPS: 0.8648648648648649
+TPR: 0.8888888888888888
+PPV: 0.8421052631578947
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8791208791208791
+F1-PPS: 0.8648648648648649
+TPR: 0.8888888888888888
+PPV: 0.8421052631578947
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9782608695652174
+F1-PPS: 0.9473684210526315
+TPR: 1.0
+PPV: 0.9
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9042553191489362
+F1-PPS: 0.85
+TPR: 0.9444444444444444
+PPV: 0.7727272727272727
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.8648648648648649
+TPR: 0.9411764705882353
+PPV: 0.8
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9302325581395349
+F1-PPS: 0.9142857142857143
+TPR: 0.9411764705882353
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9195402298850575
+F1-PPS: 0.8888888888888888
+TPR: 0.9411764705882353
+PPV: 0.8421052631578947
+
+F2-PPS: 0.9055231320560764
+F1-PPS: 0.8835139833829998
+TPR: 0.9213172448466567
+PPV: 0.8507209379887399
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.9090909090909091
+TPR: 0.8823529411764706
+PPV: 0.9375
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.9090909090909091
+TPR: 0.8823529411764706
+PPV: 0.9375
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.8426966292134831
+F1-PPS: 0.8571428571428571
+TPR: 0.8333333333333334
+PPV: 0.8823529411764706
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8888888888888888
+F1-PPS: 0.8888888888888888
+TPR: 0.8888888888888888
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.7865168539325843
+F1-PPS: 0.8
+TPR: 0.7777777777777778
+PPV: 0.8235294117647058
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9782608695652174
+F1-PPS: 0.9473684210526315
+TPR: 1.0
+PPV: 0.9
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9302325581395349
+F1-PPS: 0.9142857142857143
+TPR: 0.9411764705882353
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9411764705882353
+F1-PPS: 0.9411764705882353
+TPR: 0.9411764705882353
+PPV: 0.9411764705882353
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9195402298850575
+F1-PPS: 0.8888888888888888
+TPR: 0.9411764705882353
+PPV: 0.8421052631578947
+
+F2-PPS: 0.9158738553277401
+F1-PPS: 0.9145589532586438
+TPR: 0.9170437405731524
+PPV: 0.9134827075229554
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.9090909090909091
+TPR: 0.8823529411764706
+PPV: 0.9375
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.9090909090909091
+TPR: 0.8823529411764706
+PPV: 0.9375
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.8426966292134831
+F1-PPS: 0.8571428571428571
+TPR: 0.8333333333333334
+PPV: 0.8823529411764706
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.898876404494382
+F1-PPS: 0.9142857142857143
+TPR: 0.8888888888888888
+PPV: 0.9411764705882353
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8888888888888888
+F1-PPS: 0.8888888888888888
+TPR: 0.8888888888888888
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.7954545454545454
+F1-PPS: 0.8235294117647058
+TPR: 0.7777777777777778
+PPV: 0.875
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9782608695652174
+F1-PPS: 0.9473684210526315
+TPR: 1.0
+PPV: 0.9
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9411764705882353
+F1-PPS: 0.9411764705882353
+TPR: 0.9411764705882353
+PPV: 0.9411764705882353
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9523809523809523
+F1-PPS: 0.9696969696969697
+TPR: 0.9411764705882353
+PPV: 1.0
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9302325581395349
+F1-PPS: 0.9142857142857143
+TPR: 0.9411764705882353
+PPV: 0.8888888888888888
+
+F2-PPS: 0.9155823456406472
+F1-PPS: 0.9202650119058787
+TPR: 0.9127702362996482
+PPV: 0.9293363499245852
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 1.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.9090909090909091
+TPR: 0.8823529411764706
+PPV: 0.9375
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.9090909090909091
+TPR: 0.8823529411764706
+PPV: 0.9375
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.8426966292134831
+F1-PPS: 0.8571428571428571
+TPR: 0.8333333333333334
+PPV: 0.8823529411764706
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.898876404494382
+F1-PPS: 0.9142857142857143
+TPR: 0.8888888888888888
+PPV: 0.9411764705882353
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8888888888888888
+F1-PPS: 0.8888888888888888
+TPR: 0.8888888888888888
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.7954545454545454
+F1-PPS: 0.8235294117647058
+TPR: 0.7777777777777778
+PPV: 0.875
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9782608695652174
+F1-PPS: 0.9473684210526315
+TPR: 1.0
+PPV: 0.9
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9411764705882353
+F1-PPS: 0.9411764705882353
+TPR: 0.9411764705882353
+PPV: 0.9411764705882353
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9523809523809523
+F1-PPS: 0.9696969696969697
+TPR: 0.9411764705882353
+PPV: 1.0
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9302325581395349
+F1-PPS: 0.9142857142857143
+TPR: 0.9411764705882353
+PPV: 0.8888888888888888
+
+F2-PPS: 0.9155823456406472
+F1-PPS: 0.9202650119058787
+TPR: 0.9127702362996482
+PPV: 0.9293363499245852
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9239130434782609
+F1-PPS: 0.8947368421052632
+TPR: 0.9444444444444444
+PPV: 0.85
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.8823529411764706
+F1-PPS: 0.8823529411764706
+TPR: 0.8823529411764706
+PPV: 0.8823529411764706
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.9090909090909091
+TPR: 0.8823529411764706
+PPV: 0.9375
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.7692307692307693
+F1-PPS: 0.7567567567567568
+TPR: 0.7777777777777778
+PPV: 0.7368421052631579
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.967741935483871
+F1-PPS: 0.9230769230769231
+TPR: 1.0
+PPV: 0.8571428571428571
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8791208791208791
+F1-PPS: 0.8648648648648649
+TPR: 0.8888888888888888
+PPV: 0.8421052631578947
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8791208791208791
+F1-PPS: 0.8648648648648649
+TPR: 0.8888888888888888
+PPV: 0.8421052631578947
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9782608695652174
+F1-PPS: 0.9473684210526315
+TPR: 1.0
+PPV: 0.9
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9042553191489362
+F1-PPS: 0.85
+TPR: 0.9444444444444444
+PPV: 0.7727272727272727
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.8648648648648649
+TPR: 0.9411764705882353
+PPV: 0.8
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9195402298850575
+F1-PPS: 0.8888888888888888
+TPR: 0.9411764705882353
+PPV: 0.8421052631578947
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9195402298850575
+F1-PPS: 0.8888888888888888
+TPR: 0.9411764705882353
+PPV: 0.8421052631578947
+
+F2-PPS: 0.9053438148067611
+F1-PPS: 0.8830922776981363
+TPR: 0.9213172448466567
+PPV: 0.8499562056450601
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.8620689655172413
+F1-PPS: 0.8333333333333334
+TPR: 0.8823529411764706
+PPV: 0.7894736842105263
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.8433734939759037
+F1-PPS: 0.875
+TPR: 0.8235294117647058
+PPV: 0.9333333333333333
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.8426966292134831
+F1-PPS: 0.8571428571428571
+TPR: 0.8333333333333334
+PPV: 0.8823529411764706
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.9340659340659341
+F1-PPS: 0.918918918918919
+TPR: 0.9444444444444444
+PPV: 0.8947368421052632
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8791208791208791
+F1-PPS: 0.8648648648648649
+TPR: 0.8888888888888888
+PPV: 0.8421052631578947
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8888888888888888
+F1-PPS: 0.8888888888888888
+TPR: 0.8888888888888888
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9574468085106383
+F1-PPS: 0.9
+TPR: 1.0
+PPV: 0.8181818181818182
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9139784946236559
+F1-PPS: 0.8717948717948718
+TPR: 0.9444444444444444
+PPV: 0.8095238095238095
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9302325581395349
+F1-PPS: 0.9142857142857143
+TPR: 0.9411764705882353
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9883720930232558
+F1-PPS: 0.9714285714285714
+TPR: 1.0
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9195402298850575
+F1-PPS: 0.8888888888888888
+TPR: 0.9411764705882353
+PPV: 0.8421052631578947
+
+F2-PPS: 0.9157099553391475
+F1-PPS: 0.9022301041531813
+TPR: 0.925590749120161
+PPV: 0.8829599708856676
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9550561797752809
+F1-PPS: 0.9714285714285714
+TPR: 0.9444444444444444
+PPV: 1.0
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.9090909090909091
+TPR: 0.8823529411764706
+PPV: 0.9375
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.8433734939759037
+F1-PPS: 0.875
+TPR: 0.8235294117647058
+PPV: 0.9333333333333333
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.8522727272727273
+F1-PPS: 0.8823529411764706
+TPR: 0.8333333333333334
+PPV: 0.9375
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9411764705882353
+TPR: 0.8888888888888888
+PPV: 1.0
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8522727272727273
+F1-PPS: 0.8823529411764706
+TPR: 0.8333333333333334
+PPV: 0.9375
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8045977011494253
+F1-PPS: 0.8484848484848485
+TPR: 0.7777777777777778
+PPV: 0.9333333333333333
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9340659340659341
+F1-PPS: 0.918918918918919
+TPR: 0.9444444444444444
+PPV: 0.8947368421052632
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9411764705882353
+F1-PPS: 0.9411764705882353
+TPR: 0.9411764705882353
+PPV: 0.9411764705882353
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9523809523809523
+F1-PPS: 0.9696969696969697
+TPR: 0.9411764705882353
+PPV: 1.0
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9411764705882353
+F1-PPS: 0.9411764705882353
+TPR: 0.9411764705882353
+PPV: 0.9411764705882353
+
+F2-PPS: 0.9094434733432245
+F1-PPS: 0.9250230735524853
+TPR: 0.8996983408748116
+PPV: 0.9539000687994498
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9550561797752809
+F1-PPS: 0.9714285714285714
+TPR: 0.9444444444444444
+PPV: 1.0
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.9090909090909091
+TPR: 0.8823529411764706
+PPV: 0.9375
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.8024691358024691
+F1-PPS: 0.8666666666666667
+TPR: 0.7647058823529411
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.8522727272727273
+F1-PPS: 0.8823529411764706
+TPR: 0.8333333333333334
+PPV: 0.9375
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9411764705882353
+TPR: 0.8888888888888888
+PPV: 1.0
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8522727272727273
+F1-PPS: 0.8823529411764706
+TPR: 0.8333333333333334
+PPV: 0.9375
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8045977011494253
+F1-PPS: 0.8484848484848485
+TPR: 0.7777777777777778
+PPV: 0.9333333333333333
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9340659340659341
+F1-PPS: 0.918918918918919
+TPR: 0.9444444444444444
+PPV: 0.8947368421052632
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9411764705882353
+F1-PPS: 0.9411764705882353
+TPR: 0.9411764705882353
+PPV: 0.9411764705882353
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9523809523809523
+F1-PPS: 0.9696969696969697
+TPR: 0.9411764705882353
+PPV: 1.0
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9411764705882353
+F1-PPS: 0.9411764705882353
+TPR: 0.9411764705882353
+PPV: 0.9411764705882353
+
+F2-PPS: 0.9062969842529603
+F1-PPS: 0.9243820479114597
+TPR: 0.8951734539969836
+PPV: 0.9590282739276549
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 10.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9550561797752809
+F1-PPS: 0.9714285714285714
+TPR: 0.9444444444444444
+PPV: 1.0
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.9090909090909091
+TPR: 0.8823529411764706
+PPV: 0.9375
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.8024691358024691
+F1-PPS: 0.8666666666666667
+TPR: 0.7647058823529411
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.8522727272727273
+F1-PPS: 0.8823529411764706
+TPR: 0.8333333333333334
+PPV: 0.9375
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9411764705882353
+TPR: 0.8888888888888888
+PPV: 1.0
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8522727272727273
+F1-PPS: 0.8823529411764706
+TPR: 0.8333333333333334
+PPV: 0.9375
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8045977011494253
+F1-PPS: 0.8484848484848485
+TPR: 0.7777777777777778
+PPV: 0.9333333333333333
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9340659340659341
+F1-PPS: 0.918918918918919
+TPR: 0.9444444444444444
+PPV: 0.8947368421052632
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9411764705882353
+F1-PPS: 0.9411764705882353
+TPR: 0.9411764705882353
+PPV: 0.9411764705882353
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9523809523809523
+F1-PPS: 0.9696969696969697
+TPR: 0.9411764705882353
+PPV: 1.0
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9411764705882353
+F1-PPS: 0.9411764705882353
+TPR: 0.9411764705882353
+PPV: 0.9411764705882353
+
+F2-PPS: 0.9062969842529603
+F1-PPS: 0.9243820479114597
+TPR: 0.8951734539969836
+PPV: 0.9590282739276549
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 1e-05}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9340659340659341
+F1-PPS: 0.918918918918919
+TPR: 0.9444444444444444
+PPV: 0.8947368421052632
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.8620689655172413
+F1-PPS: 0.8333333333333334
+TPR: 0.8823529411764706
+PPV: 0.7894736842105263
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.8433734939759037
+F1-PPS: 0.875
+TPR: 0.8235294117647058
+PPV: 0.9333333333333333
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.8333333333333334
+F1-PPS: 0.8333333333333334
+TPR: 0.8333333333333334
+PPV: 0.8333333333333334
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.9239130434782609
+F1-PPS: 0.8947368421052632
+TPR: 0.9444444444444444
+PPV: 0.85
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8791208791208791
+F1-PPS: 0.8648648648648649
+TPR: 0.8888888888888888
+PPV: 0.8421052631578947
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8888888888888888
+F1-PPS: 0.8888888888888888
+TPR: 0.8888888888888888
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.989010989010989
+F1-PPS: 0.972972972972973
+TPR: 1.0
+PPV: 0.9473684210526315
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9574468085106383
+F1-PPS: 0.9
+TPR: 1.0
+PPV: 0.8181818181818182
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9139784946236559
+F1-PPS: 0.8717948717948718
+TPR: 0.9444444444444444
+PPV: 0.8095238095238095
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9770114942528736
+F1-PPS: 0.9444444444444444
+TPR: 1.0
+PPV: 0.8947368421052632
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9302325581395349
+F1-PPS: 0.9142857142857143
+TPR: 0.9411764705882353
+PPV: 0.8888888888888888
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9195402298850575
+F1-PPS: 0.8888888888888888
+TPR: 0.9411764705882353
+PPV: 0.8421052631578947
+
+F2-PPS: 0.9116911625233224
+F1-PPS: 0.8924202364485766
+TPR: 0.925590749120161
+PPV: 0.8640520298415038
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 0.0001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9340659340659341
+F1-PPS: 0.918918918918919
+TPR: 0.9444444444444444
+PPV: 0.8947368421052632
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.8823529411764706
+F1-PPS: 0.8823529411764706
+TPR: 0.8823529411764706
+PPV: 0.8823529411764706
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.7926829268292683
+F1-PPS: 0.8387096774193549
+TPR: 0.7647058823529411
+PPV: 0.9285714285714286
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.8522727272727273
+F1-PPS: 0.8823529411764706
+TPR: 0.8333333333333334
+PPV: 0.9375
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.898876404494382
+F1-PPS: 0.9142857142857143
+TPR: 0.8888888888888888
+PPV: 0.9411764705882353
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.813953488372093
+F1-PPS: 0.875
+TPR: 0.7777777777777778
+PPV: 1.0
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8620689655172413
+F1-PPS: 0.9090909090909091
+TPR: 0.8333333333333334
+PPV: 1.0
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9782608695652174
+F1-PPS: 0.9473684210526315
+TPR: 1.0
+PPV: 0.9
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9883720930232558
+F1-PPS: 0.9714285714285714
+TPR: 1.0
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9770114942528736
+F1-PPS: 0.9444444444444444
+TPR: 1.0
+PPV: 0.8947368421052632
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.9090909090909091
+TPR: 0.8823529411764706
+PPV: 0.9375
+
+F2-PPS: 0.904743375101192
+F1-PPS: 0.913994795151791
+TPR: 0.8996983408748116
+PPV: 0.9346082967599997
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 0.001}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9550561797752809
+F1-PPS: 0.9714285714285714
+TPR: 0.9444444444444444
+PPV: 1.0
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.9090909090909091
+TPR: 0.8823529411764706
+PPV: 0.9375
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.7926829268292683
+F1-PPS: 0.8387096774193549
+TPR: 0.7647058823529411
+PPV: 0.9285714285714286
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.8522727272727273
+F1-PPS: 0.8823529411764706
+TPR: 0.8333333333333334
+PPV: 0.9375
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9411764705882353
+TPR: 0.8888888888888888
+PPV: 1.0
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8522727272727273
+F1-PPS: 0.8823529411764706
+TPR: 0.8333333333333334
+PPV: 0.9375
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8045977011494253
+F1-PPS: 0.8484848484848485
+TPR: 0.7777777777777778
+PPV: 0.9333333333333333
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9340659340659341
+F1-PPS: 0.918918918918919
+TPR: 0.9444444444444444
+PPV: 0.8947368421052632
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9411764705882353
+F1-PPS: 0.9411764705882353
+TPR: 0.9411764705882353
+PPV: 0.9411764705882353
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9036144578313253
+F1-PPS: 0.9375
+TPR: 0.8823529411764706
+PPV: 1.0
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9411764705882353
+F1-PPS: 0.9411764705882353
+TPR: 0.9411764705882353
+PPV: 0.9411764705882353
+
+F2-PPS: 0.9017929301358196
+F1-PPS: 0.919754820300361
+TPR: 0.8906485671191555
+PPV: 0.9535337684331494
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 'auto'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9550561797752809
+F1-PPS: 0.9714285714285714
+TPR: 0.9444444444444444
+PPV: 1.0
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.9090909090909091
+TPR: 0.8823529411764706
+PPV: 0.9375
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.8024691358024691
+F1-PPS: 0.8666666666666667
+TPR: 0.7647058823529411
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.8522727272727273
+F1-PPS: 0.8823529411764706
+TPR: 0.8333333333333334
+PPV: 0.9375
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9411764705882353
+TPR: 0.8888888888888888
+PPV: 1.0
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8522727272727273
+F1-PPS: 0.8823529411764706
+TPR: 0.8333333333333334
+PPV: 0.9375
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8045977011494253
+F1-PPS: 0.8484848484848485
+TPR: 0.7777777777777778
+PPV: 0.9333333333333333
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9340659340659341
+F1-PPS: 0.918918918918919
+TPR: 0.9444444444444444
+PPV: 0.8947368421052632
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9411764705882353
+F1-PPS: 0.9411764705882353
+TPR: 0.9411764705882353
+PPV: 0.9411764705882353
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9523809523809523
+F1-PPS: 0.9696969696969697
+TPR: 0.9411764705882353
+PPV: 1.0
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9411764705882353
+F1-PPS: 0.9411764705882353
+TPR: 0.9411764705882353
+PPV: 0.9411764705882353
+
+F2-PPS: 0.9062969842529603
+F1-PPS: 0.9243820479114597
+TPR: 0.8951734539969836
+PPV: 0.9590282739276549
+--------------------------------------------------
+C-Support Vector Classifier Parameters: {'C': 100.0, 'gamma': 'scale'}
+--------------------------------------------------
+
+classifier execution on:
+- train file: fold-1-train.csv
+- test file: fold-1-test.csv
+F2-PPS: 0.9550561797752809
+F1-PPS: 0.9714285714285714
+TPR: 0.9444444444444444
+PPV: 1.0
+classifier execution on:
+- train file: fold-10-train.csv
+- test file: fold-10-test.csv
+F2-PPS: 0.8928571428571429
+F1-PPS: 0.9090909090909091
+TPR: 0.8823529411764706
+PPV: 0.9375
+classifier execution on:
+- train file: fold-11-train.csv
+- test file: fold-11-test.csv
+F2-PPS: 0.8024691358024691
+F1-PPS: 0.8666666666666667
+TPR: 0.7647058823529411
+PPV: 1.0
+classifier execution on:
+- train file: fold-12-train.csv
+- test file: fold-12-test.csv
+F2-PPS: 0.8522727272727273
+F1-PPS: 0.8823529411764706
+TPR: 0.8333333333333334
+PPV: 0.9375
+classifier execution on:
+- train file: fold-13-train.csv
+- test file: fold-13-test.csv
+F2-PPS: 0.9090909090909091
+F1-PPS: 0.9411764705882353
+TPR: 0.8888888888888888
+PPV: 1.0
+classifier execution on:
+- train file: fold-2-train.csv
+- test file: fold-2-test.csv
+F2-PPS: 0.8522727272727273
+F1-PPS: 0.8823529411764706
+TPR: 0.8333333333333334
+PPV: 0.9375
+classifier execution on:
+- train file: fold-3-train.csv
+- test file: fold-3-test.csv
+F2-PPS: 0.8045977011494253
+F1-PPS: 0.8484848484848485
+TPR: 0.7777777777777778
+PPV: 0.9333333333333333
+classifier execution on:
+- train file: fold-4-train.csv
+- test file: fold-4-test.csv
+F2-PPS: 1.0
+F1-PPS: 1.0
+TPR: 1.0
+PPV: 1.0
+classifier execution on:
+- train file: fold-5-train.csv
+- test file: fold-5-test.csv
+F2-PPS: 0.9340659340659341
+F1-PPS: 0.918918918918919
+TPR: 0.9444444444444444
+PPV: 0.8947368421052632
+classifier execution on:
+- train file: fold-6-train.csv
+- test file: fold-6-test.csv
+F2-PPS: 0.9444444444444444
+F1-PPS: 0.9444444444444444
+TPR: 0.9444444444444444
+PPV: 0.9444444444444444
+classifier execution on:
+- train file: fold-7-train.csv
+- test file: fold-7-test.csv
+F2-PPS: 0.9411764705882353
+F1-PPS: 0.9411764705882353
+TPR: 0.9411764705882353
+PPV: 0.9411764705882353
+classifier execution on:
+- train file: fold-8-train.csv
+- test file: fold-8-test.csv
+F2-PPS: 0.9523809523809523
+F1-PPS: 0.9696969696969697
+TPR: 0.9411764705882353
+PPV: 1.0
+classifier execution on:
+- train file: fold-9-train.csv
+- test file: fold-9-test.csv
+F2-PPS: 0.9411764705882353
+F1-PPS: 0.9411764705882353
+TPR: 0.9411764705882353
+PPV: 0.9411764705882353
+
+F2-PPS: 0.9062969842529603
+F1-PPS: 0.9243820479114597
+TPR: 0.8951734539969836
+PPV: 0.9590282739276549
