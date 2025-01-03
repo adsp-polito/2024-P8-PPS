@@ -3,11 +3,13 @@ import sys
 import torch
 import joblib
 import argparse
+import warnings
 import numpy as np
 import pandas as pd
 
 np.random.seed(42)
 torch.manual_seed(42)
+warnings.filterwarnings('ignore')
 
 from typing import List, Tuple
 from transformers import AutoModel, AutoTokenizer
@@ -29,7 +31,7 @@ def predict(
         models (List[str]): paths to classifier model files in `.joblib` format
         weights (List[int]): weights for each model in the ensemble
         data (pd.DataFrame): input data with 'title' and 'abstract' columns
-        bases (List[str]): pre-trained bert-base model identifiers
+        bases (List[str]): pre-trained BERT-base model identifiers
         device (str): device to run inference, either 'cpu' or 'cuda'
         threshold (float): threshold for binary predictions
         labels (List[int], optional): ground-truth labels for evaluation
@@ -50,9 +52,9 @@ def predict(
 
         args:
             row (pd.Series): row with 'title' and 'abstract' columns
-            base (str): pre-trained bert-base model identifier
-            model (AutoModel): bert-base model
-            tokenizer (AutoTokenizer): bert-base tokenizer
+            base (str): pre-trained BERT-base model identifier
+            model (AutoModel): BERT-base model
+            tokenizer (AutoTokenizer): BERT-base tokenizer
             device (str): device to run inference
 
         returns:
@@ -88,9 +90,9 @@ def predict(
 
             args:
                 text (List[str]): list of text strings to tokenize
-                tokenizer (AutoTokenizer): bert-base tokenizer
+                tokenizer (AutoTokenizer): BERT-base tokenizer
 
-            Returns:
+            returns:
                 dict: input tokens
             """
             inputs = tokenizer(
@@ -117,8 +119,8 @@ def predict(
 
             args:
                 text (List[str]): list of text strings
-                model (AutoModel): bert-base model
-                tokenizer (AutoTokenizer): bert-base tokenizer
+                model (AutoModel): BERT-base model
+                tokenizer (AutoTokenizer): BERT-base tokenizer
                 pooling (bool): whether to compute mean pooling
 
             returns:
@@ -130,7 +132,7 @@ def predict(
             embeddings = output.pooler_output if not pooling else meanpooling(
                 output,
                 inputs['attention_mask']
-           )
+            )
             return embeddings
 
         if base == 'NeuML/pubmedbert-base-embeddings':
@@ -155,7 +157,7 @@ def predict(
         model = AutoModel.from_pretrained(base)
         model = model.to(device)
         x_input = list()
-        for idx, row in data.reset_index(drop=True).iterrows():
+        for idx, row in data.iterrows():
             percentage = (idx + 1) / len(data) * 100
             sys.stdout.write(f"\rencoding data... {percentage:.2f}%")
             sys.stdout.flush()
@@ -213,47 +215,19 @@ if __name__ == "__main__":
     """
     parse arguments and run the main classification process
     """
-    parser = argparse.ArgumentParser(description="run PPS classification pipeline")
+    parser = argparse.ArgumentParser(description="run patient-preferences-study classification pipeline")
     parser.add_argument("--title", type=str, help="paper title for classification")
     parser.add_argument("--abstract", type=str, help="paper abstract for classification")
-    parser.add_argument("--csv", type=str, help="path to a CSV file with 'title' and 'abstract' columns")
     parser.add_argument("--device", type=str, default="cpu", help="device to run inference: 'cpu' or 'cuda'")
     args = parser.parse_args()
 
-    if "google.colab" in sys.modules:
-        dir = "/content/"
-    else:
-        dir = "./"
-    
     # validate inputs
-    if args.csv and (args.title or args.abstract):
-        raise ValueError("provide either a CSV file or a single title and abstract, not both")
-    if not args.csv and not (args.title and args.abstract):
-        raise ValueError("provide either a CSV file or a single title and abstract")
-
-    # load data
-    if args.csv:
-        csv = args.csv
-        if not os.path.exists(csv):
-            path = os.path.join(dir, os.path.basename(csv))
-            if os.path.exists(path):
-                csv = path
-            else:
-                raise FileNotFoundError(f"the file {csv} does not exist")
-        data = pd.read_csv(csv)
-        columns = {column.lower(): column for column in data.columns}
-        if "title" not in columns or "abstract" not in columns:
-            raise ValueError("provide a CSV file with 'title' and 'abstract' columns")
-        data = data.rename(columns={columns["title"]: "title", columns["abstract"]: "abstract"})
-    else:
-        data = pd.DataFrame({
-            "title": [args.title],
-            "abstract": [args.abstract]
-        })
+    if not args.title or not args.abstract:
+        raise ValueError("provide both a title and an abstract")
 
     # run the main function
     main(
-        data["title"].tolist(),
-        data["abstract"].tolist(),
+        [args.title],
+        [args.abstract],
         args.device
     )
