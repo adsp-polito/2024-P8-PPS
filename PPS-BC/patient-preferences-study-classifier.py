@@ -4,6 +4,7 @@ import torch
 import joblib
 import requests
 import argparse
+import subprocess
 import numpy as np
 import pandas as pd
 
@@ -13,6 +14,25 @@ torch.manual_seed(42)
 from typing import List, Tuple
 from transformers import AutoModel, AutoTokenizer
 from sklearn.metrics import classification_report
+
+def ensure(
+    path: str
+):
+    if not os.path.exists(path):
+        raise FileNotFoundError(f"file {path} does not exist")
+    with open(path, "rb") as f:
+        header = f.read(256)
+        if b"git-lfs" in header:
+            print(f"downloading original file from {path} LFS pointer...")
+            result = subprocess.run(
+                ["git", "lfs", "pull"],
+                cwd=os.path.dirname(path),
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True
+            )
+            if result.returncode != 0:
+                raise RuntimeError(f"{result.stderr}")
 
 def predict(
     models: List[str],
@@ -195,6 +215,7 @@ def main(
     for base in bases:
         if not os.path.exists(base):
             raise FileNotFoundError(f"BERT model directory {base} does not exist")
+        ensure(os.path.join(base, "model.safetensors"))
     threshold = 0.3875
     weights = [0.4375, 0.5625]
     data = pd.DataFrame({'title': title, 'abstract': abstract})
