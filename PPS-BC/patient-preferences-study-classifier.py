@@ -201,6 +201,10 @@ def main(
     ]
     threshold = 0.3875
     weights = [0.4375, 0.5625]
+    if isinstance(title, str):
+        title = [title]
+    if isinstance(abstract, str):
+        abstract = [abstract]
     data = pd.DataFrame({'title': title, 'abstract': abstract})
     preds, probs = predict(
         models=models,
@@ -216,8 +220,8 @@ if __name__ == "__main__":
     parse arguments and run the main classification process
     """
     parser = argparse.ArgumentParser(description="run patient-preferences-study classification pipeline")
-    parser.add_argument("--title", type=str, help="paper title for classification")
-    parser.add_argument("--abstract", type=str, help="paper abstract for classification")
+    parser.add_argument("--title", type=str, nargs='+', help="paper title(s) for classification")
+    parser.add_argument("--abstract", type=str, nargs='+', help="paper abstract(s) for classification")
     parser.add_argument("--device", type=str, default="cpu", help="device to run inference: 'cpu' or 'cuda'")
     args = parser.parse_args()
 
@@ -227,7 +231,7 @@ if __name__ == "__main__":
 
     # run the main function
     main(
-        [args.title],
-        [args.abstract],
+        args.title,
+        args.abstract,
         args.device
     )
