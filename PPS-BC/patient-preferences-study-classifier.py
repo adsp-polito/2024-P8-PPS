@@ -2,9 +2,7 @@ import os
 import sys
 import torch
 import joblib
-import requests
 import argparse
-import subprocess
 import numpy as np
 import pandas as pd
 
@@ -14,25 +12,6 @@ torch.manual_seed(42)
 from typing import List, Tuple
 from transformers import AutoModel, AutoTokenizer
 from sklearn.metrics import classification_report
-
-def ensure(
-    path: str
-):
-    if not os.path.exists(path):
-        raise FileNotFoundError(f"file {path} does not exist")
-    with open(path, "rb") as f:
-        header = f.read(256)
-        if b"git-lfs" in header:
-            print(f"downloading original file from {path} LFS pointer...")
-            result = subprocess.run(
-                ["git", "lfs", "pull"],
-                cwd=os.path.dirname(path),
-                stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE,
-                text=True
-            )
-            if result.returncode != 0:
-                raise RuntimeError(f"{result.stderr}")
 
 def predict(
     models: List[str],
@@ -101,13 +80,15 @@ def predict(
             return torch.sum(embeddings * mask, 1) / torch.clamp(mask.sum(1), min=1e-9)
 
         def tokenize(
-            text: List[str]
+            text: List[str],
+            tokenizer: AutoTokenizer
         ) -> dict:
             """
             tokenize input text
 
             args:
                 text (List[str]): list of text strings to tokenize
+                tokenizer (AutoTokenizer): bert-base tokenizer
 
             Returns:
                 dict: input tokens
@@ -127,6 +108,8 @@ def predict(
 
         def encode(
             text: List[str],
+            model: AutoModel,
+            tokenizer: AutoTokenizer,
             pooling: bool
         ) -> torch.Tensor:
             """
@@ -134,12 +117,14 @@ def predict(
 
             args:
                 text (List[str]): list of text strings
+                model (AutoModel): bert-base model
+                tokenizer (AutoTokenizer): bert-base tokenizer
                 pooling (bool): whether to compute mean pooling
 
             returns:
                 torch.Tensor: embeddings
             """
-            inputs = tokenize(text)
+            inputs = tokenize(text, tokenizer)
             with torch.no_grad():
                 output = model(**inputs)
             embeddings = output.pooler_output if not pooling else meanpooling(
@@ -148,13 +133,13 @@ def predict(
            )
             return embeddings
 
-        if base == 'pubmed-bert-base':
-            title = encode(title, pooling=False)
-            abstract = encode(abstract, pooling=False)
+        if base == 'NeuML/pubmedbert-base-embeddings':
+            title = encode(title, model, tokenizer, pooling=False)
+            abstract = encode(abstract, model, tokenizer, pooling=False)
             embeddings = torch.cat((title, abstract), dim=-1)
-        elif base == 'biomed-bert-base':
-            title = encode(title, pooling=True)
-            abstract = encode(abstract, pooling=True)
+        elif base == 'microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract':
+            title = encode(title, model, tokenizer, pooling=True)
+            abstract = encode(abstract, model, tokenizer, pooling=True)
             embeddings = 0.2 * title + 0.8 * abstract
         else:
             raise ValueError(f"unknown base model: {base}")
@@ -209,13 +194,9 @@ def main(
         os.path.join(dir, 'biomed-svc-pipeline.joblib')
     ]
     bases = [
-        os.path.join(dir, 'pubmed-bert-base'),
-        os.path.join(dir, 'biomed-bert-base')
+        'NeuML/pubmedbert-base-embeddings',
+        'microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract'
     ]
-    for base in bases:
-        if not os.path.exists(base):
-            raise FileNotFoundError(f"BERT model directory {base} does not exist")
-        ensure(os.path.join(base, "model.safetensors"))
     threshold = 0.3875
     weights = [0.4375, 0.5625]
     data = pd.DataFrame({'title': title, 'abstract': abstract})
