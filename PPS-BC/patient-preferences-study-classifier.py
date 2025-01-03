@@ -23,9 +23,9 @@ def predict(
     device: str,
     threshold: float,
     labels: List[int] = None
-):
+) -> Tuple[np.ndarray, np.ndarray]:
     """
-    run classification by multiple models and soft majority vote
+    run prediction by soft majority vote
 
     args:
         models (List[str]): paths to classifier model files in `.joblib` format
@@ -48,7 +48,7 @@ def predict(
         device: str
     ) -> np.ndarray:
         """
-        get embeddings
+        get embeddings for row data
 
         args:
             row (pd.Series): row with 'title' and 'abstract' columns
@@ -178,18 +178,22 @@ def predict(
     return preds, probs
 
 def main(
-    title: List[str], 
-    abstract: List[str], 
+    title,
+    abstract,
     device: str
 ):
     """
     run the classification pipeline
 
     args:
-        title (List[str]): list of titles
-        abstract (List[str]): list of abstracts
+        title (List[str] or str): list of titles or a single title
+        abstract (List[str] or str): list of abstracts or a single abstract
         device (str): device to run inference, either 'cpu' or 'cuda'
     """
+    if isinstance(title, list) and isinstance(abstract, list):
+        data = pd.DataFrame({'title': title, 'abstract': abstract})
+    else:
+        data = pd.DataFrame({'title': [title], 'abstract': [abstract]})
     dir = "/content/2024-P8-PPS/PPS-BC/models/"
     models = [
         os.path.join(dir, 'pubmed-knn-pipeline.joblib'), 
@@ -201,11 +205,6 @@ def main(
     ]
     threshold = 0.3875
     weights = [0.4375, 0.5625]
-    if isinstance(title, str):
-        title = [title]
-    if isinstance(abstract, str):
-        abstract = [abstract]
-    data = pd.DataFrame({'title': title, 'abstract': abstract})
     preds, probs = predict(
         models=models,
         weights=weights,
@@ -220,18 +219,38 @@ if __name__ == "__main__":
     parse arguments and run the main classification process
     """
     parser = argparse.ArgumentParser(description="run patient-preferences-study classification pipeline")
-    parser.add_argument("--title", type=str, nargs='+', help="paper title(s) for classification")
-    parser.add_argument("--abstract", type=str, nargs='+', help="paper abstract(s) for classification")
-    parser.add_argument("--device", type=str, default="cpu", help="device to run inference: 'cpu' or 'cuda'")
+    parser.add_argument(
+        "--title", 
+        type=str, 
+        help="csv list of paper titles for classification, or a single title")
+    parser.add_argument(
+        "--abstract", 
+        type=str, 
+        help="csv list of paper abstracts for classification, or a single abstract")
+    parser.add_argument(
+        "--device", 
+        type=str, 
+        default="cpu", 
+        help="device to run inference: 'cpu' or 'cuda'")
     args = parser.parse_args()
 
+    if ',' in args.title:
+        title = args.title.split(',')
+    else:
+        title = [args.title]
+
+    if ',' in args.abstract:
+        abstract = args.abstract.split(',')
+    else:
+        abstract = [args.abstract]
+
     # validate inputs
-    if not args.title or not args.abstract:
+    if not title or not abstract:
         raise ValueError("provide both a title and an abstract")
 
     # run the main function
     main(
-        args.title,
-        args.abstract,
+        title, 
+        abstract, 
         args.device
     )
