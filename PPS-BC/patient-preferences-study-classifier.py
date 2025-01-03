@@ -183,7 +183,7 @@ def main(
         abstract (List[str]): list of abstracts
         device (str): device to run inference, either 'cpu' or 'cuda'
     """
-    dir = "PPS-BC/models/"
+    dir = "/content/2024-P8-PPS/PPS-BC/models/"
     models = [
         os.path.join(dir, 'pubmed-knn-pipeline.joblib'), 
         os.path.join(dir, 'biomed-svc-pipeline.joblib')
