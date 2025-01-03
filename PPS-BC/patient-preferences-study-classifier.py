@@ -220,6 +220,11 @@ if __name__ == "__main__":
     parser.add_argument("--device", type=str, default="cpu", help="device to run inference: 'cpu' or 'cuda'")
     args = parser.parse_args()
 
+    if "google.colab" in sys.modules:
+        dir = "/content/"
+    else:
+        dir = "./"
+    
     # validate inputs
     if args.csv and (args.title or args.abstract):
         raise ValueError("provide either a CSV file or a single title and abstract, not both")
@@ -228,9 +233,14 @@ if __name__ == "__main__":
 
     # load data
     if args.csv:
-        if not os.path.exists(args.csv):
-            raise FileNotFoundError(f"the file {args.csv} does not exist")
-        data = pd.read_csv(args.csv)
+        csv = args.csv
+        if not os.path.exists(csv):
+            path = os.path.join(dir, os.path.basename(csv))
+            if os.path.exists(path):
+                csv = path
+            else:
+                raise FileNotFoundError(f"the file {csv} does not exist")
+        data = pd.read_csv(csv)
         columns = {column.lower(): column for column in data.columns}
         if "title" not in columns or "abstract" not in columns:
             raise ValueError("provide a CSV file with 'title' and 'abstract' columns")
