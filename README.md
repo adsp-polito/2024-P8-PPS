@@ -14,11 +14,11 @@ The binary classification model, implemented as an ensemble of PubMedBERT-kNN an
 The repository is organized into the following main components:
 
 ### 1. **Binary Classification Model**
-   - Path: [`binary_classification/`](binary_classification/)
+   - Path: [`PPS-BC/`](binary_classification/)
    - Description: This folder contains the implementation of the binary classification model used to filter PPS from the main dataset. The model combines the outputs of PubMedBERT-kNN and BioMedBERT-SVM classifiers through a majority voting mechanism to ensure minimal loss of relevant papers.
 
 ### 2. **Multilabel Classification Model**
-   - Path: [`multilabel_classification/`](multilabel_classification/)
+   - Path: [`PPS-MLC/`](multilabel_classification/)
    - Description: This folder includes the implementation of the multilabel classification system for assigning relevant labels to PPS. It features models such as Binary Relevance with SVC and RAkEL with mnNB, as well as an exploration of BERTopic for identifying additional labels.
 
 ---
