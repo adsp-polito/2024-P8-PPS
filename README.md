@@ -34,4 +34,4 @@ The repository is organized into the following main components:
 - [High-Precision Binary Classifier](https://pps-binary-classifier.streamlit.app)
 
 ## Binary Classification Model Architecture
-<img src="docs/PPS.png" alt="Alt text" width="1050"/>
+<img src="docs/model-architecture.png" alt="Alt text" width="1050"/>
