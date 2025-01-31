@@ -29,3 +29,9 @@ The repository is organized into the following main components:
    ```bash
    git clone https://github.com/adsp-polito/2024-P8-PPS.git
    cd 2024-P8-PPS
+
+## How to Run
+- [High-Precision Binary Classifier](https://pps-binary-classifier.streamlit.app)
+
+## Binary Classification Model Architecture
+<img src="docs/PPS.png" alt="Alt text" width="1050"/>
